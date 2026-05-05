@@ -141,13 +141,13 @@ X18ex does not belong to the team — it belongs to the community. From Day 1, w
                   ★ X18ex ★
                   (All-in-One + AI + Game)
                        |
-         Hyperliquid ○ | ○ 1inch
-                       |
-    dYdX ○         ○ Vertex
-                       |
-         Uniswap ○     | ○ Jupiter
-                       |
-    PancakeSwap ○      |
+         ApolloX ○ | ○ 1inch
+                   |
+    KiloEx ○       |       ○ Venus
+                   |
+  PancakeSwap ○    |    ○ Jupiter
+                   |
+        GMX ○      |      ○ Aave
                        |
     ───────────────────┼───────────────→
     Single Feature     |     All-in-One

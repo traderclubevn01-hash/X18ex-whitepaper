@@ -61,8 +61,8 @@ impl<'a> UnifiedMatchingEngine<'a> {
 
 | Model | Advantages | Disadvantages |
 |:---|:---|:---|
-| **Pure AMM** (Uniswap) | Automatic liquidity, permissionless | High slippage, impermanent loss |
-| **Pure Order Book** (Hyperliquid) | High speed, precision | Requires market makers, liquidity cold start |
+| **Pure AMM** (PancakeSwap) | Automatic liquidity, permissionless | High slippage, impermanent loss |
+| **Pure Order Book** (KiloEx/ApolloX) | High speed, precision | Requires market makers, liquidity cold start |
 | **Hybrid** (X18ex) | ✅ Speed + liquidity + permissionless | More complex to build |
 
 ---
@@ -88,17 +88,19 @@ impl<'a> UnifiedMatchingEngine<'a> {
 │  ┌──────────────────────────────────────────────────┐    │
 │  │              UNIFIED MATCHING ENGINE              │    │
 │  │                                                   │    │
-│  │  Best price from CLOB or AMM → auto-route         │    │
-│  │  Smart order splitting across both engines         │    │
+│  │  • Best price from CLOB or AMM → auto-route       │    │
+│  │  • Smart order splitting across both engines      │    │
+│  │  • ZK-Privacy: Zero-Knowledge proofs mask order   │    │
+│  │    intent and user identity pre-execution         │    │
 │  └────────────────────┬──────────────────────────────┘    │
 │                       │                                   │
 │                       ▼                                   │
 │  ┌──────────────────────────────────────────────────┐    │
-│  │              ON-CHAIN SETTLEMENT                  │    │
+│  │      ON-CHAIN SETTLEMENT & DATA AVAILABILITY      │    │
 │  │                                                   │    │
-│  │  • Atomic settlement on target chain              │    │
-│  │  • Flash Accounting (EIP-1153)                    │    │
-│  │  • Netting & batch settlement                     │    │
+│  │  • Fast execution sequenced on opBNB (L2)         │    │
+│  │  • Atomic settlement finalized on BSC (L1)        │    │
+│  │  • Trade history & Order states on BNB Greenfield │    │
 │  └──────────────────────────────────────────────────┘    │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -166,9 +168,9 @@ X18ex implements a **Unified Cross-Margin** system — all positions, spot balan
 
 | Metric | Target | Comparison |
 |:---|:---|:---|
-| **Order Latency** | <50ms | Hyperliquid: ~100ms |
-| **Orders/Second** | 100,000+ | Hyperliquid: 200K |
-| **Settlement Finality** | <2 seconds (L2) | dYdX: ~1s |
+| **Order Latency** | <50ms | Competitors: ~100ms |
+| **Orders/Second** | 100,000+ | Competitors: 200K |
+| **Settlement Finality** | <2 seconds (L2) | Competitors: ~1s |
 | **Uptime** | 99.99% | Industry: 99.9% |
 | **Gas Optimization** | 40% less than avg | Via Flash Accounting |
 
@@ -176,7 +178,7 @@ X18ex implements a **Unified Cross-Margin** system — all positions, spot balan
 
 ## Plugin Hook System
 
-Inspired by Uniswap v4 Hooks, X18ex allows developers to attach custom logic to the lifecycle of a pool:
+Inspired by programmable liquidity hooks (like PancakeSwap v4 Hooks), X18ex allows developers to attach custom logic to the lifecycle of a pool:
 
 ### Hook Points
 ```

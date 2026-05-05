@@ -2,7 +2,7 @@
 
 ## Decentralized Perpetual Contracts & Derivatives
 
-X18ex Perpetuals deliver a peer-to-peer derivatives trading experience comparable to Hyperliquid and dYdX, but seamlessly integrated with spot trading and AI protection.
+X18ex Perpetuals deliver a peer-to-peer derivatives trading experience comparable to ApolloX and KiloEx, but seamlessly integrated with spot trading and AI protection.
 
 ---
 

@@ -72,13 +72,13 @@ DEX aggregators like 1inch use static algorithms (Dijkstra, BFS) for swap pathfi
 User: "Swap 50 BNB → USDC"
 
 Traditional Router:
-  → Uniswap V3: 100% → $125,000
+  → PancakeSwap V3: 100% → $125,000
   → Slippage: 0.8%
   → Gas: $15
   → Net: $123,985
 
 X18 Brain Router:
-  → 60% Uniswap V3 + 30% Curve + 10% Balancer
+  → 60% PancakeSwap V3 + 30% Thena + 10% BiSwap
   → Cross-chain: 15% via Arbitrum pool (deeper liquidity)
   → Timing: Wait 12 seconds (gas drop predicted)
   → Slippage: 0.15%

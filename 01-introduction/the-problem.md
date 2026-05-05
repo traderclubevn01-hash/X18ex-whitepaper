@@ -17,7 +17,9 @@ Step 2: Switch to 1inch to check for better prices
          ↓
 Step 3: Use a bridge to transfer USDC to Arbitrum
          ↓
-Step 4: Open Hyperliquid to enter a Perp position
+**Step 4: Open ApolloX to enter a Perp position**
+- Problem: Have to send assets from wallet to ApolloX L1.
+- Consequence: Takes 5 minutes + additional bridging fees.
          ↓
 Step 5: Track portfolio on DeBank
          ↓

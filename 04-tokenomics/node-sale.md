@@ -12,7 +12,7 @@ The initial Node sale program allows users to **invest early** in the X18ex ecos
 |:---|:---|
 | **Sale Duration** | **3 months** (countdown clock in dashboard) |
 | **$X18 Reference Price** | **$1.00 / token** |
-| **Node Types** | 3 packages: $1K, $5K, $10K |
+| **Node Types** | 3 packages: $1,000, $5,000, $10,000 |
 | **Total Nodes** | **2,300 packages** (finite, no additional issuance) |
 | **After Expiry** | Nodes cease operation, no additional packages issued |
 | **Unsold Nodes** | **Completely Burned** — increases scarcity |
@@ -27,7 +27,7 @@ The initial Node sale program allows users to **invest early** in the X18ex ecos
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║                                                                        ║
 ║  ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────┐ ║
-║  │    🥉 $1K PACKAGE   │  │    🥈 $5K PACKAGE   │  │   🥇 $10K PACKAGE │ ║
+║  │  🥉 $1,000 PACKAGE  │  │  🥈 $5,000 PACKAGE  │  │ 🥇 $10,000 PACKAGE│ ║
 ║  │                     │  │                      │  │                 │ ║
 ║  │  Price: $1,000      │  │  Price: $5,000       │  │  Price: $10,000 │ ║
 ║  │  X18 Tokens: 1,000  │  │  X18 Tokens: 5,000   │  │  X18 Tokens:    │ ║
@@ -45,7 +45,7 @@ The initial Node sale program allows users to **invest early** in the X18ex ecos
 
 ### Detailed Benefits Table
 
-| Information | 🥉 $1K Package | 🥈 $5K Package | 🥇 $10K Package |
+| Information | 🥉 $1,000 Package | 🥈 $5,000 Package | 🥇 $10,000 Package |
 |:---|:---:|:---:|:---:|
 | **Purchase Price** | $1,000 | $5,000 | $10,000 |
 | **$X18 Tokens Received** | 1,000 | 5,000 | 10,000 |
@@ -101,7 +101,7 @@ contract X18NodeManager {
 
 ### 1. Node Purchase
 ```
-User purchases Node package ($1K / $5K / $10K)
+User purchases Node package ($1,000 / $5,000 / $10,000)
          │
          ▼
 X18 Tokens allocated to user
@@ -118,9 +118,9 @@ Mining starts automatically ⛏️
 ```
 Each month, user receives mining rewards:
          │
-         ├── $1K Package:  8% × 1,000 =   80 X18/month
-         ├── $5K Package:  9% × 5,250 =  472.5 X18/month
-         └── $10K Package: 10% × 11,000 = 1,100 X18/month
+         ├── $1,000 Package:  8% × 1,000 =   80 X18/month
+         ├── $5,000 Package:  9% × 5,250 =  472.5 X18/month
+         └── $10,000 Package: 10% × 11,000 = 1,100 X18/month
          │
          ▼
 Rewards are unlocked and can be:
@@ -150,9 +150,9 @@ The Node sale program features a **countdown clock** displayed in each user's da
 ║              67 DAYS : 14 HOURS : 32 MINUTES          ║
 ║                                                       ║
 ║  ┌─────────────────────────────────────────────────┐  ║
-║  │ $1K Package   ████████████░░░░░░  680/1,000 sold │  ║
-║  │ $5K Package   ██████████████░░░░  720/1,000 sold │  ║
-║  │ $10K Package  █████████████████░  255/300 sold   │  ║
+║  │ $1,000 Package ████████████░░░░░░ 680/1,000 sold │  ║
+║  │ $5,000 Package ██████████████░░░░ 720/1,000 sold │  ║
+║  │ $10,000 Package █████████████████░ 255/300 sold  │  ║
 ║  └─────────────────────────────────────────────────┘  ║
 ║                                                       ║
 ║  📊 Total sold: 1,655 / 2,300 (71.9%)                 ║
@@ -167,7 +167,7 @@ The Node sale program features a **countdown clock** displayed in each user's da
 
 ## Benefit Levels (V1, V2, V3)
 
-| Benefits | V1 ($1K Package) | V2 ($5K Package) | V3 ($10K Package) |
+| Benefits | V1 ($1,000 Package) | V2 ($5,000 Package) | V3 ($10,000 Package) |
 |:---|:---:|:---:|:---:|
 | Mining $X18 monthly | ✅ 8% | ✅ 9% | ✅ 10% |
 | Fee discount on DEX | 10% | 25% | 40% |
@@ -233,6 +233,12 @@ Unsold Nodes are burned → actual supply lower than 18M → favorable for holde
 > - Package quantities have a counter to show how many are left
 > - If not sold out within 3 months, corresponding tokens will be **completely burned**
 > - Nodes will cease operation after the term, and no additional packages will be issued
+
+---
+
+## Latest Updates
+
+> *Note: This section is reserved for future updates regarding the Node Sale program. Any new rules, extensions, or additional benefits will be posted here.*
 
 ---
 

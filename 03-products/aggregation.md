@@ -23,7 +23,7 @@ X18 Route is an aggregation engine that scans **200+ liquidity sources** across 
 ## Liquidity Sources
 
 ### DEX Protocols
-Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome, Aerodrome, Raydium, Orca, and 190+ other protocols.
+PancakeSwap V2/V3/V4, ApolloX, Venus, BiSwap, Thena, SushiSwap, Curve, Balancer, Trader Joe, Raydium, Orca, and 190+ other protocols across BSC and multi-chain.
 
 ### Private Liquidity
 - Professional market makers (RFQ system)

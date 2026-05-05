@@ -20,9 +20,9 @@ Price of $X18 = f(Demand ↑, Supply ↓, Revenue ↑)
 |:---|---:|
 | Bitcoin | 21,000,000 |
 | **$X18** | **18,000,000** |
-| UNI | 1,000,000,000 |
-| DYDX | 1,000,000,000 |
-| 1INCH | 1,500,000,000 |
+| CAKE | 385,000,000 |
+| APX | 10,000,000,000 |
+| KILOEX | 1,000,000,000 |
 
 **$X18 has a lower supply than Bitcoin.** With only 18 million tokens — each token is extremely valuable.
 

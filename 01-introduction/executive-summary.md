@@ -12,7 +12,7 @@
 2. **Seamless Multi-chain** — trade across 10+ blockchains without needing to know where the assets are
 3. **All-in-One Ecosystem** — spot, futures, bots, games, plugins in a single platform
 
-X18ex was created to solve a problem that millions of crypto traders face every day: **fragmentation**. To trade effectively in DeFi in 2025, you need to use 4-6 different platforms — Uniswap for swaps, Hyperliquid for futures, 1inch for aggregation, a separate bridge for cross-chain, and build your own bot API for automation. **X18ex ends that era of fragmentation.**
+X18ex was created to solve a problem that millions of crypto traders face every day: **fragmentation**. To trade effectively in DeFi in 2025, you need to use 4-6 different platforms — PancakeSwap for swaps, ApolloX for futures, 1inch for aggregation, a separate bridge for cross-chain, and build your own bot API for automation. **X18ex ends that era of fragmentation.**
 
 ---
 
@@ -23,7 +23,7 @@ The DEX market in 2025 will reach **$6.7 trillion USD** in derivatives trading v
 | You want to... | Currently have to... | With X18ex |
 |:---|:---|:---|
 | Best swap | Use an aggregator (1inch) | ✅ AI finds the best price automatically |
-| Trade futures | Switch to another platform (dYdX) | ✅ Directly on the same platform |
+| Trade futures | Switch to another platform (ApolloX/KiloEx) | ✅ Directly on the same platform |
 | Cross-chain | Use a bridge (risk of hacks >$2.5B) | ✅ Intent-based, secure |
 | Run bots | Code your own API for each platform | ✅ Pre-built bots, 1-click |
 | Manage portfolio | Manual Excel spreadsheets | ✅ AI auto-rebalances |

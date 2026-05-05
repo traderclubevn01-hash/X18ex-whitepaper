@@ -2,7 +2,7 @@
 
 ## Unlimited Expansion Through Plugins
 
-Inspired by Uniswap v4 Hooks, X18ex creates a **Plugin Marketplace** where developers can build and monetize extensions for the platform.
+Inspired by advanced AMM hook architectures, X18ex creates a **Plugin Marketplace** where developers can build and monetize extensions for the platform. By opening the core engine to third-party developers, X18ex transforms from a simple exchange into an infinitely extensible trading OS.
 
 ---
 

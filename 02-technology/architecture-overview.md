@@ -34,12 +34,12 @@ X18ex is designed with a **5-layer architecture** (Five-Layer Stack) — each la
 ╠═════════╪══════════════════╪═════════════════════╪══════════════╣
 ║         │          🧠 INTELLIGENCE LAYER         │              ║
 ║  ┌──────┴───────┐  ┌──────┴───────┐  ┌──────────┴───────────┐  ║
-║  │  AI Smart    │  │   Risk       │  │   MEV Protection     │  ║
-║  │  Routing     │  │  Guardian    │  │      Shield          │  ║
+║  │  AI Smart    │  │   Risk       │  │   ZK Privacy         │  ║
+║  │  Routing     │  │  Guardian    │  │     Engine           │  ║
 ║  └──────┬───────┘  └──────┬───────┘  └──────────┬───────────┘  ║
 ║  ┌──────┴───────┐  ┌──────┴───────┐  ┌──────────┴───────────┐  ║
-║  │  Portfolio   │  │  Market      │  │   Liquidation        │  ║
-║  │   Pilot      │  │  Sentiment   │  │     Shield           │  ║
+║  │  Portfolio   │  │  MEV Protect │  │   Liquidation        │  ║
+║  │   Pilot      │  │    Shield    │  │     Shield           │  ║
 ║  └──────┬───────┘  └──────┬───────┘  └──────────┬───────────┘  ║
 ╠═════════╪══════════════════╪═════════════════════╪══════════════╣
 ║         │          ⚡ PROTOCOL LAYER              │              ║
@@ -70,12 +70,12 @@ The foundational layer where all transaction logic occurs on-chain.
 
 | Component | Function | Reference Technology |
 |:---|:---|:---|
-| **Hybrid Order Book + AMM** | Combines CLOB speed with AMM liquidity | Vertex Protocol + Uniswap v4 |
-| **Perpetuals Engine** | Perpetual futures contracts, leverage up to 50x | Hyperliquid + dYdX |
-| **Lending & Borrowing** | Integrated lending/borrowing within margin | Aave + Vertex |
-| **Liquidity Pools** | Concentrated liquidity + custom curves | Uniswap v4 Hooks |
-| **Settlement Layer** | On-chain settlement ensures transparency | BSC / opBNB |
-| **Plugin Hook Engine** | Extends functionality via smart contract plugins | Uniswap v4 Hooks |
+| **Hybrid Order Book + AMM** | Combines CLOB speed with AMM liquidity | ApolloX V2 + PancakeSwap V4 Hooks |
+| **Perpetuals Engine** | Perpetual futures contracts, leverage up to 50x | ApolloX + KiloEx |
+| **Lending & Borrowing** | Integrated lending/borrowing within margin | Venus Protocol |
+| **Liquidity Pools** | Concentrated liquidity + custom curves | PancakeSwap V4 Hooks |
+| **Settlement & Data Layer** | On-chain settlement and Decentralized Storage | BSC / opBNB + BNB Greenfield |
+| **Plugin Hook Engine** | Extends functionality via smart contract plugins | PancakeSwap V4 Hooks |
 
 ### 🧠 Layer 2: Intelligence Layer — "The Brain"
 
@@ -86,6 +86,7 @@ The AI layer that creates the core differentiation — unmatched by others.
 | **AI Smart Routing** | ML model scans 200+ liquidity sources, predicts slippage & gas |
 | **Risk Guardian** | Real-time risk scoring for every trade and position |
 | **MEV Protection Shield** | AI detects and prevents MEV attacks |
+| **Zero-Knowledge (ZK) Privacy Engine** | Cryptographic proofs for private order matching and user data protection |
 | **Portfolio Pilot** | AI automatically rebalances and optimizes portfolios |
 | **Market Sentiment** | NLP analyzes social feeds → trading signals |
 | **Liquidation Shield** | Predicts liquidation risk 15 minutes ahead, auto-hedge |
@@ -101,7 +102,7 @@ The connecting layer between protocol and applications.
 | **Webhook System** | Push notifications for events: fills, liquidations |
 | **Wallet Abstraction** | Connects all wallet types: EOA, Smart Account, MPC |
 | **Cross-chain Bridge** | Intent-based bridging, secure, non-custodial |
-| **Account Abstraction** | Gasless transactions, session keys, social login |
+| **Account Abstraction & ZK Auth** | Gasless transactions, session keys, zero-trust authentication |
 
 ### 📱 Layer 4: Application Layer — "The Interface"
 
