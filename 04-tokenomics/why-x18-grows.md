@@ -32,6 +32,19 @@ Giá $X18 = f(Demand ↑, Supply ↓, Revenue ↑)
 
 ## #2: Burn Liên Tục — Mỗi Ngày Supply Giảm
 
+To quantify the deflationary pressure on $X18, we introduce the **X18ex Continuous Burn Equation**:
+
+$$ S_{t} = S_{0} - \int_{0}^{t} \left( \gamma \cdot V(\tau) + \delta \cdot P(\tau) + \epsilon \cdot C(\tau) \right) d\tau $$
+
+Where:
+- $S_t$ = Total Supply at time $t$
+- $S_0$ = Initial Supply (18,000,000)
+- $V(\tau)$ = Trading volume over time, with $\gamma$ representing the 40% fee buy-back ratio
+- $P(\tau)$ = Plugin marketplace revenue over time, with $\delta$ representing the 10% commission
+- $C(\tau)$ = AI premium & cross-chain settlement revenue, with $\epsilon$ representing their respective burn ratios
+
+*This equation proves that $S_t$ is strictly decreasing over time, creating a perpetual mathematical floor price as long as $V(\tau) > 0$.*
+
 | Nguồn Burn | Cơ chế |
 |:---|:---|
 | **Trading Fee Burn** | 40% tổng fees → buy back & burn |

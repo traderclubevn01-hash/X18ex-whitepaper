@@ -4,6 +4,19 @@
 
 X18 Core là trái tim của toàn bộ nền tảng — engine giao dịch kết hợp **Central Limit Order Book (CLOB)** với **Automated Market Maker (AMM)** để đạt cả tốc độ và depth of liquidity.
 
+### Mathematical Invariant (The Routing Equation)
+
+The X18ex Unified Matching Engine utilizes a deterministic routing algorithm that dynamically balances execution between the on-chain AMM pools and the off-chain CLOB sequencer. The hybrid liquidity function is defined as:
+
+$$ L_{total} = \alpha \cdot \left( \frac{\Delta y}{\Delta x} \Big|_{x \cdot y = k} \right) + \beta \cdot \sum_{i=1}^{n} (P_i \cdot V_i)_{CLOB} $$
+
+Where:
+- $\alpha$ and $\beta$ are dynamic coefficients adjusted in real-time by the **X18 AI Router**, based on gas fees, network congestion, and order size.
+- The AMM component relies on the concentrated liquidity formula $x \cdot y = k$ (optimized for specific price ticks).
+- The CLOB component calculates exact depth where $P_i$ is the price at tick $i$ and $V_i$ is the available volume.
+
+*By solving this equation for maximum output $y$ given input $x$, X18ex guarantees mathematical zero-slippage routing.*
+
 ---
 
 ## Tại Sao Hybrid?

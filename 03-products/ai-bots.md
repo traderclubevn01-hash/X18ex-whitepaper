@@ -25,6 +25,41 @@ X18ex tích hợp trực tiếp hệ thống **AI-powered bots** vào nền tả
 
 ## AI Technologies Mới
 
+### Deep Learning Sentiment & Arbitrage Engine
+To power the X18ex bots, the platform utilizes a proprietary multi-layer neural network. The AI engine continuously ingests on-chain data, mempool activity, and social sentiment to detect market inefficiencies and predict short-term price movements before human traders can react.
+
+```python
+# Pseudo-code representation of X18ex AI Predictive Model
+import torch
+import torch.nn as nn
+
+class X18exMarketPredictor(nn.Module):
+    def __init__(self):
+        super().__init__()
+        # Ingest Order Book Depth & On-chain volume
+        self.lstm = nn.LSTM(input_size=128, hidden_size=256, num_layers=3, batch_first=True)
+        # NLP for Twitter/Discord Sentiment Analysis
+        self.transformer = nn.TransformerEncoderLayer(d_model=256, nhead=8)
+        # Final Arbitrage Probability Output
+        self.classifier = nn.Sequential(
+            nn.Linear(512, 128),
+            nn.ReLU(),
+            nn.Dropout(0.2),
+            nn.Linear(128, 1),
+            nn.Sigmoid()
+        )
+
+    def forward(self, orderbook_data, sentiment_vector):
+        lstm_out, _ = self.lstm(orderbook_data)
+        sentiment_out = self.transformer(sentiment_vector)
+        
+        # Fusing technical and sentiment indicators
+        fused_features = torch.cat((lstm_out[:, -1, :], sentiment_out.mean(dim=1)), dim=1)
+        arbitrage_opportunity_score = self.classifier(fused_features)
+        return arbitrage_opportunity_score
+```
+*Note: The actual model uses distributed processing via X18 Nodes to achieve <10ms inference times.*
+
 ### 1. Natural Language Trading
 ```
 User: "Mua ETH nếu giá xuống dưới $2,400 và RSI dưới 30"

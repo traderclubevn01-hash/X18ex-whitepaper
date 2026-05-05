@@ -59,6 +59,46 @@ Chương trình bán Node ban đầu cho phép người dùng **đầu tư sớm
 
 ## Cơ Chế Hoạt Động
 
+### Smart Contract: Trustless Node Manager
+To guarantee transparency, the entire Node Sale is governed by an immutable smart contract. Below is a simplified snippet of the core logic:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract X18NodeManager {
+    uint256 public constant SALE_DURATION = 90 days;
+    uint256 public saleStartTime;
+    uint256 public totalNodesSold;
+    
+    struct Node {
+        uint256 lockedTokens;
+        uint256 monthlyYieldRate;
+        uint256 lastClaimTime;
+    }
+    
+    mapping(address => Node) public userNodes;
+
+    function purchaseNode(uint256 _tier) external payable {
+        require(block.timestamp <= saleStartTime + SALE_DURATION, "Sale ended");
+        require(_tier == 1 || _tier == 5 || _tier == 10, "Invalid tier");
+        
+        // Lock tokens and set yield parameters based on tier
+        uint256 tokensToLock = calculateTokens(_tier);
+        uint256 yieldRate = calculateYieldRate(_tier);
+        
+        userNodes[msg.sender] = Node(tokensToLock, yieldRate, block.timestamp);
+        totalNodesSold++;
+    }
+
+    function burnUnsoldTokens() external {
+        require(block.timestamp > saleStartTime + SALE_DURATION, "Sale active");
+        uint256 unsoldTokens = getUnsoldTokens();
+        IX18Token(tokenAddress).burn(unsoldTokens); // Mathematical scarcity guaranteed
+    }
+}
+```
+
 ### 1. Mua Node
 ```
 User mua gói Node ($1K / $5K / $10K)
