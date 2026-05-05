@@ -23,7 +23,7 @@ While anonymous, the operational structure is highly organized and specialized:
 | **Security Architecture (Japan)** | TEE/MPC Infrastructure, Smart Contract Audits, Risk Guardian |
 | **Institutional Liquidity (Global)** | Sourcing $300M-$1B daily volume capabilities, institutional onboarding |
 
-> *There are no public founders to target, no centralized servers to shut down. X18ex is a permanent, unstoppable financial protocol deployed on the BNB Chain.*
+> *There are no public founders to target, no centralized servers to shut down. X18ex is a permanent, unstoppable financial protocol initially deployed on the BNB Chain, with its own independent Layer 1 Mainnet scheduled for Q4 2029.*
 
 ---
 
