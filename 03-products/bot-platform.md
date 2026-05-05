@@ -91,24 +91,40 @@ Events: `order.filled`, `order.cancelled`, `position.liquidated`, `position.warn
 | **Rust** | ✅ Production | High-frequency trading, low-latency |
 | **Go** | 🔄 Beta | Microservices, backend integrations |
 
-### Code Example (Python SDK)
+### AI Predictive Model (PyTorch Implementation)
+For institutional quants and HFT (High-Frequency Trading) developers, the Bot Platform provides direct access to the `SlippagePredictionNetwork`.
+
 ```python
-from x18ex import Client
+import torch
+import torch.nn as nn
+from x18ex.ai import MarketStateTensor, AIRouter
 
-client = Client(api_key="your_key", secret="your_secret")
+class SlippagePredictionNetwork(nn.Module):
+    def __init__(self, input_dim, hidden_dim, num_layers):
+        super(SlippagePredictionNetwork, self).__init__()
+        # Utilizing Transformer architecture for sequence time-series data
+        self.transformer = nn.TransformerEncoder(
+            nn.TransformerEncoderLayer(d_model=input_dim, nhead=8), 
+            num_layers=num_layers
+        )
+        self.fc_slippage = nn.Linear(input_dim, 1)
+        self.fc_gas = nn.Linear(input_dim, 1)
 
-# Get best route for swap
-route = client.ai_route(
-    from_token="ETH",
-    to_token="USDC",
-    amount=10.0,
-    chain="auto"  # AI selects optimal chain
-)
-print(f"Best price: {route.price}, savings: {route.savings_pct}%")
+    def forward(self, mempool_state: MarketStateTensor):
+        # Extract features: mempool density, target pair volatility, cross-chain gas
+        features = self.transformer(mempool_state)
+        predicted_slippage = torch.sigmoid(self.fc_slippage(features))
+        predicted_gas = torch.relu(self.fc_gas(features))
+        
+        return predicted_slippage, predicted_gas
 
-# Execute
-tx = client.execute_route(route, slippage=0.5)
-print(f"Tx hash: {tx.hash}")
+# Initialize the X18 AI Strategy Engine
+router = AIRouter(api_key="your_institutional_key")
+model = SlippagePredictionNetwork(input_dim=128, hidden_dim=256, num_layers=4)
+
+# Execute trade only if predicted slippage is < 0.1%
+if model(router.get_realtime_tensor("ETH/USDC"))[0].item() < 0.001:
+    router.execute_flash_order(pair="ETH/USDC", size=50.0, engine="hybrid")
 ```
 
 ---

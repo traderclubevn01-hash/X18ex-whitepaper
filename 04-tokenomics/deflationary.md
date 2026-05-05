@@ -31,6 +31,22 @@ $X18 is designed as a **systematically deflationary** asset — with each day th
 
 ---
 
+## The Dynamic Burn Equation
+
+The deflationary pressure of $X18 is not merely linear. It is determined by an algorithmic dynamic burn model that scales with market activity. The instantaneous burn rate $B(t)$ is defined by the following differential equation:
+
+$$ \frac{dB}{dt} = \kappa \cdot \int_{0}^{t} \left( \frac{\gamma \cdot V(\tau)}{\sigma(\tau)} + \lambda \cdot e^{-\beta \tau} \right) d\tau + \sum \xi_{plugins} $$
+
+**Where:**
+- $V(\tau)$ = Total cross-chain volume aggregated through the protocol.
+- $\sigma(\tau)$ = Market volatility index (higher volatility often triggers more bot arbitrages and liquidations, thus driving fee generation).
+- $\kappa, \gamma, \lambda, \beta$ = Algorithmic constants determined by the DAO via governance voting.
+- $\sum \xi_{plugins}$ = The continuous sum of protocol fees captured by premium plugins.
+
+*This formula guarantees that during high-volume bull cycles, the token supply decreases exponentially faster, maximizing value capture for holders.*
+
+---
+
 ## Burn Projection Model
 
 ```

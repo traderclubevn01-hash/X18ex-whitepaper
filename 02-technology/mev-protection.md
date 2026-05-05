@@ -16,6 +16,22 @@ MEV (Maximal Extractable Value) is the "hidden tax" that traders pay to bot oper
 | **Layer 4** | AI MEV Detection | Zero-day MEV strategies |
 | **Layer 5** | Slippage Guardian | Excessive slippage |
 
+### The Quantitative Risk Engine
+
+The Risk Guardian engine operates on an ultra-low latency basis, calculating the real-time **Value at Risk (VaR)** and **Expected Shortfall (ES)** for all interconnected portfolios using a Stochastic Differential Equation (SDE) model:
+
+$$ dP_t = \mu P_t dt + \sigma P_t dW_t + J_t dq_t $$
+
+Where $W_t$ represents the standard Brownian motion (continuous volatility) and $J_t dq_t$ models jump-diffusion (sudden flash crashes). The X18 Engine uses Monte Carlo simulations over 10,000 parallel threads to compute the portfolio survival probability at a 99.9% confidence interval.
+
+### MEV Heuristic Shield
+
+To prevent sandwich attacks before they occur, the `MEV Protection Shield` scans mempool graphs using a topological sort algorithm to detect cyclical dependencies. An attack is flagged and blocked if the projected slippage differential satisfies:
+
+$$ \Delta S_{attack} = \left( \frac{V_{in}}{V_{pool} + V_{in}} \right)^2 \times \Gamma > \theta_{threshold} $$
+
+*If the probability exceeds the threshold $\theta_{threshold}$, the transaction is either rerouted to an alternative liquidity pool or shielded through a private RPC relayer.*
+
 ### Smart Contract Security
 
 - **Multi-audit**: At least 3 independent audit firms before mainnet
