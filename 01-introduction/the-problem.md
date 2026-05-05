@@ -11,7 +11,7 @@ By 2025, the decentralized finance (DeFi) industry will reach $277 billion in TV
 ### Journey of a Typical Trader
 
 ```
-Step 1: Open Uniswap to swap ETH → USDC
+Step 1: Open PancakeSwap to swap BNB → USDC
          ↓
 Step 2: Switch to 1inch to check for better prices
          ↓

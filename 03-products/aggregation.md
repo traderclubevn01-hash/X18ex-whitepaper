@@ -41,7 +41,7 @@ Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome
 
 ### Flow
 ```
-1. User: "Buy 100 ETH with my USDC, best price"
+1. User: "Buy 100 BNB with my USDC, best price"
          │
 2. X18 Brain: Scan all sources, all chains
          │
@@ -56,7 +56,7 @@ Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome
 ```
 
 ### Gasless Mode
-- Users DO NOT need to hold native tokens (ETH, BNB) for gas
+- Users DO NOT need to hold native tokens (BNB, MATIC, etc.) for gas
 - Gas is paid by resolvers, factored into the swap price
 - Particularly useful for cross-chain: no need for gas tokens on the destination chain
 

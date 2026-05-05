@@ -68,7 +68,7 @@ Channels:
   "event": "order.filled",
   "data": {
     "orderId": "x18_ord_abc123",
-    "pair": "ETH/USDC",
+    "pair": "BNB/USDC",
     "side": "buy",
     "price": 2500.00,
     "amount": 10.0,
@@ -123,8 +123,8 @@ router = AIRouter(api_key="your_institutional_key")
 model = SlippagePredictionNetwork(input_dim=128, hidden_dim=256, num_layers=4)
 
 # Execute trade only if predicted slippage is < 0.1%
-if model(router.get_realtime_tensor("ETH/USDC"))[0].item() < 0.001:
-    router.execute_flash_order(pair="ETH/USDC", size=50.0, engine="hybrid")
+if model(router.get_realtime_tensor("BNB/USDC"))[0].item() < 0.001:
+    router.execute_flash_order(pair="BNB/USDC", size=50.0, engine="hybrid")
 ```
 
 ---
@@ -146,10 +146,10 @@ if model(router.get_realtime_tensor("ETH/USDC"))[0].item() < 0.001:
 ### Custom Strategy Builder
 - **X18Script** — Simple Domain-Specific Language:
 ```
-WHEN price("ETH/USDC") crosses_above SMA(50)
+WHEN price("BNB/USDC") crosses_above SMA(50)
 AND volume > avg_volume * 2
 AND rsi < 70
-THEN buy("ETH/USDC", amount=portfolio.balance * 0.1, type="limit", offset=-0.5%)
+THEN buy("BNB/USDC", amount=portfolio.balance * 0.1, type="limit", offset=-0.5%)
 ```
 
 ---

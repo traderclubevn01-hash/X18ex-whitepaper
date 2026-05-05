@@ -10,7 +10,7 @@ X18 AI Assistant is an intelligent trading assistant operating 24/7, helping eve
 
 ### 💬 Chat-based Trading
 ```
-User: "I want to buy ETH but don't know when to buy."
+User: "I want to buy BNB but don't know when to buy."
 
 X18 AI: "Based on analysis:
   • Current RSI: 42 (neutral-oversold)

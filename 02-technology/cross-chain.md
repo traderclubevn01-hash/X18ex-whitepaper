@@ -12,8 +12,8 @@ X18ex implements a **Chain Abstraction** architecture — users only see assets 
 ┌──────────────────────────────────────────────────────┐
 │                  USER EXPERIENCE                     │
 │                                                      │
-│  "Swap 10 ETH → USDC at best price"                  │
-│  (User doesn't know ETH is on Arbitrum,              │
+│  "Swap 100 BNB → USDC at best price"                 │
+│  (User doesn't know BNB is on opBNB,                 │
 │   best USDC pool is on Base)                         │
 │                                                      │
 └─────────────────────┬────────────────────────────────┘
@@ -22,7 +22,7 @@ X18ex implements a **Chain Abstraction** architecture — users only see assets 
 │              X18 INTENT RESOLVER                     │
 │                                                      │
 │  1. Parse user intent                                │
-│  2. Scan liquidity: Ethereum, Arbitrum, Base, BSC    │
+│  2. Scan liquidity: BSC, opBNB, Arbitrum, Base       │
 │  3. Calculate: direct swap vs cross-chain route      │
 │  4. Factor: gas, slippage, bridge risk, speed        │
 │  5. Present best option to user                      │
@@ -62,7 +62,7 @@ X18ex implements a **Chain Abstraction** architecture — users only see assets 
 
 | Chain | Type | TVL | Reason |
 |:---|:---|:---|:---|
-| **Ethereum** | L1 | $100B+ | Liquidity king, institutional trust |
+| **BNB Chain** | L1 | $50B+ | High throughput, massive ecosystem |
 | **Arbitrum** | L2 | $15B+ | DeFi hub, low gas, fast |
 | **Base** | L2 | $10B+ | Coinbase ecosystem, retail growth |
 | **BSC** | L1 | $8B+ | Massive volume, low cost |
@@ -87,13 +87,13 @@ Instead of each chain having separate liquidity, X18ex creates a **Unified Liqui
 
 ```
 Traditional:
-  ETH/USDC on Arbitrum: $50M liquidity
-  ETH/USDC on Base:     $20M liquidity
-  ETH/USDC on BSC:      $30M liquidity
+  BNB/USDC on opBNB: $50M liquidity
+  BNB/USDC on Base:     $20M liquidity
+  BNB/USDC on BSC:      $30M liquidity
   → User on Arbitrum only accesses $50M
 
 X18ex Unified:
-  ETH/USDC across all chains: $100M unified liquidity
+  BNB/USDC across all chains: $100M unified liquidity
   → User on ANY chain accesses the entire $100M
   → Slippage reduced 3-5x for large trades
 ```

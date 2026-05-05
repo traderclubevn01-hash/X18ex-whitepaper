@@ -10,7 +10,7 @@
 | **DAO** | Decentralized Autonomous Organization — Decentralized autonomous organization |
 | **DCA** | Dollar-Cost Averaging — Averaging price over time |
 | **DEX** | Decentralized Exchange — Decentralized exchange |
-| **EIP** | Ethereum Improvement Proposal |
+| **BEP** | Binance Evolution Proposal |
 | **FDV** | Fully Diluted Valuation — Fully diluted market capitalization |
 | **Health Factor** | Account health index (>1 = safe) |
 | **Hook** | Plugin extension point for smart contract |

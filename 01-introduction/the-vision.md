@@ -57,7 +57,7 @@ Currently, effective trading requires: deep technical knowledge, substantial cap
 One platform. One account. Every chain. Every type of transaction. Every tool. Users never have to leave X18ex to complete any strategy.
 
 - Spot + Futures + Lending on the same interface
-- ETH on Ethereum → swap → USDC on Solana = 1 click
+- BNB on BSC → swap → USDC on Solana = 1 click
 - Bots run on the platform = no need for code, no need for servers
 
 ### 3. PROTECT — Protect Users

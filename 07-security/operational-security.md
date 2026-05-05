@@ -14,7 +14,7 @@
 - **Non-custodial**: X18ex NEVER holds private keys
 - **Transaction Simulation**: Preview all transactions before signing
 - **Phishing Protection**: Domain verification warnings
-- **Contract Verification**: Auto-check contract source on Etherscan
+- **Contract Verification**: Auto-check contract source on BscScan
 - **Scam Token Detection**: AI detects honeypot, rug pull tokens
 
 ### Insurance Fund

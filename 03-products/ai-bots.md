@@ -62,10 +62,10 @@ class X18exMarketPredictor(nn.Module):
 
 ### 1. Natural Language Trading
 ```
-User: "Buy ETH if the price drops below $2,400 and RSI is below 30"
+User: "Buy BNB if the price drops below $600 and RSI is below 30"
 
 AI Bot:  ✅ Strategy created:
-         • Trigger: ETH/USDC < $2,400 AND RSI(14) < 30
+         • Trigger: BNB/USDC < $600 AND RSI(14) < 30
          • Action: Market Buy
          • Amount: [Set by user]
          • Protection: Stop-loss -5%, Take-profit +15%
@@ -102,7 +102,7 @@ AI Bot:  ✅ Strategy created:
 ║                                                           ║
 ║  Bot              │ Status │ 7d PnL  │ Trades │ Win Rate ║
 ║  ─────────────────┼────────┼─────────┼────────┼──────────║
-║  Smart DCA (ETH)  │ 🟢 ON  │ +3.2%   │   12   │  75%    ║
+║  Smart DCA (BNB)  │ 🟢 ON  │ +3.2%   │   12   │  75%    ║
 ║  Grid (BTC/USDC)  │ 🟢 ON  │ +1.8%   │   48   │  83%    ║
 ║  Portfolio Guard   │ 🟢 ON  │ —       │    2   │  100%   ║
 ║  Sniper (New List)│ 🟡 WAIT│ —       │    0   │  —      ║

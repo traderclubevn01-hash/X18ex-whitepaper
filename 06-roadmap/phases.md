@@ -50,7 +50,7 @@
 
 - [ ] Hybrid Order Book + AMM engine development
 - [ ] Smart contracts development (Solidity)
-- [ ] Spot trading implementation (ETH, Arbitrum, Base, BSC)
+- [ ] Spot trading implementation (BSC, opBNB, Arbitrum, Base)
 - [ ] Basic UI/UX — Web trading terminal
 - [ ] **AI Bots v1** — DCA Bot, Grid Bot, Alert Bot integrated with the platform
 - [ ] Bot API v1 (REST)
@@ -85,7 +85,7 @@
 - [ ] Risk Guardian v1
 - [ ] MEV Protection Shield
 - [ ] **AI Bots v2** — Sniper, Arbitrage, Copy Trade, Portfolio Guard
-- [ ] Natural Language Trading ("buy ETH if price below $2,400")
+- [ ] Natural Language Trading ("buy BNB if price below $600")
 - [ ] Bot API v2 (REST + WebSocket)
 - [ ] SDK release: Python, TypeScript
 - [ ] **X18 Game Alpha** — Core gameplay, trading simulation

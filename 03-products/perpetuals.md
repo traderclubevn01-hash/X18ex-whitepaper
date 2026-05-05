@@ -23,7 +23,7 @@ X18ex Perpetuals deliver a peer-to-peer derivatives trading experience comparabl
 ## Key Features
 
 ### 1. Unified Cross-Margin
-Spot + Perp + Lending — all serve as collateral. ETH spot position supports margin for BTC perp trade.
+Spot + Perp + Lending — all serve as collateral. BNB spot position supports margin for BTC perp trade.
 
 ### 2. AI Liquidation Shield
 Instead of being liquidated immediately when the health factor drops to 1.0:
@@ -46,7 +46,7 @@ Instead of being liquidated immediately when the health factor drops to 1.0:
 ## Supported Markets
 
 ### Major Pairs (50x leverage)
-BTC/USDC, ETH/USDC, SOL/USDC, BNB/USDC, ARB/USDC
+BTC/USDC, BNB/USDC, SOL/USDC, ETH/USDC, ARB/USDC
 
 ### Altcoin Pairs (20x leverage)
 AVAX, MATIC, OP, APT, SUI, DOGE, LINK, UNI, AAVE, MKR, and 90+ other pairs

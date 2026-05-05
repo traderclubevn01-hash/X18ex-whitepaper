@@ -69,7 +69,7 @@ DEX aggregators like 1inch use static algorithms (Dijkstra, BFS) for swap pathfi
 
 ### Real-World Example
 ```
-User: "Swap 50 ETH → USDC"
+User: "Swap 50 BNB → USDC"
 
 Traditional Router:
   → Uniswap V3: 100% → $125,000
@@ -104,13 +104,13 @@ Each position and portfolio is monitored by Risk Guardian:
 ║  Risk Level:        🟡 MODERATE           ║
 ║                                           ║
 ║  Positions:                               ║
-║  ├─ ETH Long 5x    Risk: 🔴 HIGH         ║
+║  ├─ BNB Long 5x    Risk: 🔴 HIGH         ║
 ║  │  └─ Liq. Price: $2,150 (12% away)     ║
 ║  ├─ BTC Perp 2x    Risk: 🟢 LOW          ║
 ║  │  └─ Liq. Price: $48,000 (35% away)    ║
 ║  └─ SOL Spot       Risk: 🟢 SAFE         ║
 ║                                           ║
-║  ⚠️ ALERT: ETH volatility spike predicted ║
+║  ⚠️ ALERT: BNB volatility spike predicted ║
 ║     in next 2 hours. Consider reducing    ║
 ║     leverage or adding collateral.        ║
 ║                                           ║

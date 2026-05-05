@@ -25,7 +25,7 @@ X18ex offers a peer-level spot trading experience with leading centralized excha
 | **Range Order** | Similar to limit but earn fees while waiting |
 
 ### Multi-Chain Swap
-- Swap ETH (Ethereum) → SOL (Solana) in **1 transaction**
+- Swap BNB (BSC) → SOL (Solana) in **1 transaction**
 - AI optimizes cross-chain routing
 - No manual bridging required
 - Atomic settlement — receive or refund, never lost midway

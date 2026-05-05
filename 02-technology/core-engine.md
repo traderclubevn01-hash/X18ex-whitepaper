@@ -128,7 +128,7 @@ impl<'a> UnifiedMatchingEngine<'a> {
 | Order Type | Description |
 |:---|:---|
 | **Smart Execute** | AI optimizes timing, splitting, routing |
-| **Intent Order** | State intent ("Buy 10 ETH at best price across all chains"), AI handles |
+| **Intent Order** | State intent ("Buy 100 BNB at best price across all chains"), AI handles |
 | **Predictive Stop** | AI predicts volatility spike → automatically adjusts stop |
 
 ---
@@ -141,7 +141,7 @@ X18ex implements a **Unified Cross-Margin** system — all positions, spot balan
 ┌─────────────────────────────────────────┐
 │         UNIFIED MARGIN ACCOUNT          │
 │                                         │
-│  Spot: 10 ETH ($25,000)                │
+│  Spot: 100 BNB ($60,000)               │
 │  Perp: Long BTC 2x ($20,000)           │
 │  Lending: 5,000 USDC deposited         │
 │  ────────────────────────────           │
@@ -150,7 +150,7 @@ X18ex implements a **Unified Cross-Margin** system — all positions, spot balan
 │  Free Margin:  $30,000                  │
 │  Health Factor: 2.50 ✅                 │
 │                                         │
-│  💡 Unrealized profit from ETH spot     │
+│  💡 Unrealized profit from BNB spot     │
 │     offsets BTC perp margin requirement │
 └─────────────────────────────────────────┘
 ```

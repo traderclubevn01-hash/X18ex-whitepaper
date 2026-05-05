@@ -55,7 +55,7 @@ X18ex is designed with a **5-layer architecture** (Five-Layer Stack) — each la
 ╠══════════════════════════════════════════════════════════════════╣
 ║                   ⛓️ MULTI-CHAIN SUBSTRATE                     ║
 ║  ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐     ║
-║  │ETH │ │ARB │ │BASE│ │BSC │ │POL │ │SOL │ │AVAX│ │OP  │     ║
+║  │BSC │ │ARB │ │BASE│ │opBNB│ │POL │ │SOL │ │AVAX│ │OP  │    ║
 ║  └────┘ └────┘ └────┘ └────┘ └────┘ └────┘ └────┘ └────┘     ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
@@ -74,7 +74,7 @@ The foundational layer where all transaction logic occurs on-chain.
 | **Perpetuals Engine** | Perpetual futures contracts, leverage up to 50x | Hyperliquid + dYdX |
 | **Lending & Borrowing** | Integrated lending/borrowing within margin | Aave + Vertex |
 | **Liquidity Pools** | Concentrated liquidity + custom curves | Uniswap v4 Hooks |
-| **Settlement Layer** | On-chain settlement ensures transparency | Ethereum L1/L2 |
+| **Settlement Layer** | On-chain settlement ensures transparency | BSC / opBNB |
 | **Plugin Hook Engine** | Extends functionality via smart contract plugins | Uniswap v4 Hooks |
 
 ### 🧠 Layer 2: Intelligence Layer — "The Brain"
@@ -132,10 +132,10 @@ X18ex supports multi-chain from day one through **Chain Abstraction** architectu
 ### Phase 1 — Launch Chains
 | Chain | Type | Reason |
 |:---|:---|:---|
-| **Ethereum** | L1 | Deepest liquidity, institutional trust |
+| **BNB Chain** | L1 | Fast finality, massive liquidity, institutional trust |
 | **Arbitrum** | L2 | Low gas, fast, strong DeFi ecosystem |
 | **Base** | L2 | Coinbase ecosystem, retail onboarding |
-| **BSC** | L1 | High volume, low cost |
+| **opBNB** | L2 | High volume, extreme low cost, fast finality |
 
 ### Phase 2 — Expansion Chains
 | Chain | Type | Reason |
