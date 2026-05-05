@@ -11,7 +11,7 @@
 | **Total Supply** | **18,000,000** (eighteen million) |
 | **Fixed Supply** | ✅ No additional minting |
 | **Model** | Deflationary |
-| **Token Standard** | ERC-20 (Ethereum) + Deploy on all supported chains |
+| **Token Standard** | BEP-20 (Binance Smart Chain) |
 | **Decimals** | 18 |
 
 ---
