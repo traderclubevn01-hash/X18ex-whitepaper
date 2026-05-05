@@ -1,18 +1,18 @@
 # Perpetuals & Derivatives
 
-## Hợp Đồng Vĩnh Viễn & Phái Sinh Phi Tập Trung
+## Decentralized Perpetual Contracts & Derivatives
 
-X18ex Perpetuals mang lại trải nghiệm giao dịch derivatives ngang hàng với Hyperliquid và dYdX, nhưng tích hợp liền mạch với spot trading và AI protection.
+X18ex Perpetuals deliver a peer-to-peer derivatives trading experience comparable to Hyperliquid and dYdX, but seamlessly integrated with spot trading and AI protection.
 
 ---
 
-## Thông Số Kỹ Thuật
+## Specifications
 
-| Parameter | Giá trị |
+| Parameter | Value |
 |:---|:---|
-| **Leverage tối đa** | Lên đến 50x (major pairs), 20x (altcoins) |
+| **Maximum Leverage** | Up to 50x (major pairs), 20x (altcoins) |
 | **Margin mode** | Cross-margin (unified) + Isolated margin |
-| **Funding rate** | 8 giờ/lần, tính tự động |
+| **Funding rate** | Every 8 hours, automatically calculated |
 | **Liquidation** | Partial liquidation + AI Liquidation Shield |
 | **Pairs** | 100+ perpetual pairs |
 | **Settlement** | USDC-margined |
@@ -20,40 +20,40 @@ X18ex Perpetuals mang lại trải nghiệm giao dịch derivatives ngang hàng 
 
 ---
 
-## Tính Năng Nổi Bật
+## Key Features
 
 ### 1. Unified Cross-Margin
-Spot + Perp + Lending — tất cả đều là collateral. ETH spot position giúp margin cho BTC perp trade.
+Spot + Perp + Lending — all serve as collateral. ETH spot position supports margin for BTC perp trade.
 
 ### 2. AI Liquidation Shield
-Thay vì bị liquidate ngay khi health factor xuống 1.0:
-- 🟡 Warning tại health 1.5
-- 🟠 Auto-suggest tại health 1.2
-- 🔴 Auto-protect (opt-in) tại health 1.05 — partial close để cứu position
+Instead of being liquidated immediately when the health factor drops to 1.0:
+- 🟡 Warning at health 1.5
+- 🟠 Auto-suggest at health 1.2
+- 🔴 Auto-protect (opt-in) at health 1.05 — partial close to save the position
 
 ### 3. Copy Trading
-- Copy top performers trên leaderboard
-- Chọn risk level: Conservative / Moderate / Aggressive
-- Auto mirror positions real-time
+- Copy top performers on the leaderboard
+- Choose risk level: Conservative / Moderate / Aggressive
+- Auto mirror positions in real-time
 
 ### 4. Tournaments & Competitions
 - Weekly trading competitions
-- Rewards pool từ protocol treasury
-- Leaderboard public với PnL transpareny
+- Rewards pool from protocol treasury
+- Public leaderboard with PnL transparency
 
 ---
 
-## Markets Hỗ Trợ
+## Supported Markets
 
 ### Major Pairs (50x leverage)
 BTC/USDC, ETH/USDC, SOL/USDC, BNB/USDC, ARB/USDC
 
 ### Altcoin Pairs (20x leverage)
-AVAX, MATIC, OP, APT, SUI, DOGE, LINK, UNI, AAVE, MKR, và 90+ pairs khác
+AVAX, MATIC, OP, APT, SUI, DOGE, LINK, UNI, AAVE, MKR, and 90+ other pairs
 
 ### Exotic & Meme Pairs (10x leverage)
-PEPE, WIF, BONK, FLOKI — với risk warnings rõ ràng
+PEPE, WIF, BONK, FLOKI — with clear risk warnings
 
 ---
 
-> **Tiếp theo:** [Smart Aggregation →](aggregation.md)
+> **Next:** [Smart Aggregation →](aggregation.md)

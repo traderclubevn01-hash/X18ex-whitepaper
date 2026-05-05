@@ -1,122 +1,122 @@
 # The Problem
 
-## Thị Trường DeFi Đang Vỡ Vụn
+## The Fragmented DeFi Market
 
-Năm 2025, ngành công nghiệp tài chính phi tập trung (DeFi) đạt $277 tỷ TVL và DEX xử lý hàng nghìn tỷ USD volume. Nhưng đằng sau những con số ấn tượng này là một thực tế đáng lo ngại: **trải nghiệm người dùng đang bị phân mảnh nghiêm trọng**.
-
----
-
-## 🔴 Problem 1: Sự Phân Mảnh Trải Nghiệm
-
-### Hành Trình Của Một Trader Điển Hình
-
-```
-Bước 1: Mở Uniswap để swap ETH → USDC
-         ↓
-Bước 2: Chuyển sang 1inch để check giá tốt hơn
-         ↓
-Bước 3: Dùng bridge để chuyển USDC sang Arbitrum
-         ↓
-Bước 4: Mở Hyperliquid để vào vị thế Perp
-         ↓
-Bước 5: Track portfolio trên DeBank
-         ↓
-Bước 6: Set alert trên một app khác
-```
-
-**6 nền tảng, 6 lần kết nối wallet, 6 lần chịu rủi ro bảo mật.**
-
-Tương đương với việc bạn phải đến 6 ngân hàng khác nhau chỉ để quản lý tài khoản — trong thế kỷ 21, đó là điều không chấp nhận được.
+By 2025, the decentralized finance (DeFi) industry will reach $277 billion in TVL, with DEXs processing trillions of dollars in volume. However, behind these impressive figures lies a concerning reality: **the user experience is severely fragmented**.
 
 ---
 
-## 🔴 Problem 2: Thất Thoát Giá Trị Ẩn
+## 🔴 Problem 1: Fragmented Experience
 
-Mỗi lần một trader thực hiện giao dịch trên DEX, họ đang **mất tiền một cách âm thầm**:
+### Journey of a Typical Trader
 
-| Loại Thất Thoát | Mô Tả | Ước Tính Tổn Thất |
+```
+Step 1: Open Uniswap to swap ETH → USDC
+         ↓
+Step 2: Switch to 1inch to check for better prices
+         ↓
+Step 3: Use a bridge to transfer USDC to Arbitrum
+         ↓
+Step 4: Open Hyperliquid to enter a Perp position
+         ↓
+Step 5: Track portfolio on DeBank
+         ↓
+Step 6: Set an alert on another app
+```
+
+**6 platforms, 6 wallet connections, 6 security risk exposures.**
+
+It's akin to visiting 6 different banks just to manage your accounts — unacceptable in the 21st century.
+
+---
+
+## 🔴 Problem 2: Hidden Value Loss
+
+Every time a trader executes a transaction on a DEX, they are **silently losing money**:
+
+| Type of Loss | Description | Estimated Loss |
 |:---|:---|:---|
-| **Slippage** | Giá thực tế khác giá hiển thị | 0.1% - 3% mỗi trade |
-| **MEV/Front-running** | Bot chạy trước lệnh của bạn | ~$1.4B/năm toàn thị trường |
-| **Gas fees đa bước** | Approve + Swap + Bridge = 3x gas | $5 - $50 mỗi chuỗi thao tác |
-| **Thanh khoản kém** | Asset hiếm = spread lớn | 1% - 10% cho long-tail tokens |
-| **Routing không tối ưu** | Không tìm được đường swap tốt nhất | 0.5% - 2% mỗi trade |
+| **Slippage** | Actual price differs from displayed price | 0.1% - 3% per trade |
+| **MEV/Front-running** | Bots front-run your orders | ~$1.4B/year market-wide |
+| **Multi-step Gas Fees** | Approve + Swap + Bridge = 3x gas | $5 - $50 per transaction chain |
+| **Poor Liquidity** | Rare assets = large spread | 1% - 10% for long-tail tokens |
+| **Suboptimal Routing** | Failing to find the best swap path | 0.5% - 2% per trade |
 
-**Một trader tích cực có thể mất $5,000 - $50,000/năm** chỉ vì các thất thoát ẩn này.
+**An active trader can lose $5,000 - $50,000/year** due to these hidden losses.
 
 ---
 
-## 🔴 Problem 3: Cross-Chain Là Cơn Ác Mộng
+## 🔴 Problem 3: Cross-Chain is a Nightmare
 
-### Thiệt Hại Do Bridge Hacks (2021-2025)
+### Damage from Bridge Hacks (2021-2025)
 
-| Sự Kiện | Thiệt Hại |
+| Event | Damage |
 |:---|:---|
 | Ronin Bridge | $625M |
 | Wormhole | $325M |
 | Nomad | $190M |
 | Harmony Horizon | $100M |
 | Multichain | $130M |
-| **Tổng cộng** | **>$2.5 tỷ USD** |
+| **Total** | **>$2.5 billion USD** |
 
-Người dùng phải chọn giữa **tiện lợi** (dùng bridge, chấp nhận rủi ro) và **an toàn** (ở lại một chain, chấp nhận giới hạn). Đây là trade-off không nên tồn tại.
-
----
-
-## 🔴 Problem 4: Bot Trading Bị Coi Là "Afterthought"
-
-Hơn **60% volume giao dịch** trên các DEX lớn đến từ bot và thuật toán. Nhưng hạ tầng cho bot developers lại cực kỳ nghèo nàn:
-
-- API không nhất quán giữa các chain và protocol
-- Không có WebSocket real-time đáng tin cậy
-- SDK hạn chế (chủ yếu chỉ JavaScript)
-- Không có developer portal, documentation kém
-- Không có backtesting engine native
-- Không có strategy marketplace
-
-**Bot developers phải tự build mọi thứ từ đầu** cho mỗi DEX, mỗi chain — lãng phí hàng ngàn giờ engineer.
+Users must choose between **convenience** (using bridges, accepting risks) and **safety** (staying on one chain, accepting limitations). This trade-off should not exist.
 
 ---
 
-## 🔴 Problem 5: Thiếu Intelligence Layer
+## 🔴 Problem 4: Bot Trading Considered an "Afterthought"
 
-Trong tài chính truyền thống, **AI và ML** đã được tích hợp sâu vào mọi quy trình:
+Over **60% of trading volume** on major DEXs comes from bots and algorithms. Yet, the infrastructure for bot developers is extremely lacking:
 
-- Bloomberg Terminal có AI analytics
-- Goldman Sachs dùng ML cho risk management
-- Citadel dùng AI cho trade execution
+- Inconsistent APIs across chains and protocols
+- No reliable real-time WebSocket
+- Limited SDKs (primarily JavaScript only)
+- No developer portal, poor documentation
+- No native backtesting engine
+- No strategy marketplace
 
-Trong DeFi? **Không có gì**. Routing vẫn dùng thuật toán cố định. Risk management là thủ công. Portfolio optimization không tồn tại.
-
-Đây là khoảng cách **10 năm** giữa DeFi và TradFi về mặt công nghệ thông minh.
-
----
-
-## 🔴 Problem 6: Pro Tools Quá Phức Tạp Cho Retail
-
-Các công cụ chuyên nghiệp như cross-margin, limit orders, TWAP, VWAP, stop-loss on-chain — tất cả đều có trên một số DEX. Nhưng chúng được thiết kế cho **quant traders**, không phải cho người dùng phổ thông.
-
-**95% người dùng DeFi** không thể sử dụng hiệu quả các công cụ này, dẫn đến:
-
-- Mất tiền do không hiểu cross-margin
-- Bị liquidate vì không biết đặt stop-loss
-- Bỏ lỡ cơ hội vì không biết dùng limit orders
+**Bot developers must build everything from scratch** for each DEX, each chain — wasting thousands of engineering hours.
 
 ---
 
-## Tổng Kết Vấn Đề
+## 🔴 Problem 5: Lack of Intelligence Layer
 
-| # | Vấn Đề | Hệ Quả |
+In traditional finance, **AI and ML** are deeply integrated into every process:
+
+- Bloomberg Terminal has AI analytics
+- Goldman Sachs uses ML for risk management
+- Citadel uses AI for trade execution
+
+In DeFi? **Nothing**. Routing still uses fixed algorithms. Risk management is manual. Portfolio optimization is non-existent.
+
+This is a **10-year gap** between DeFi and TradFi in terms of smart technology.
+
+---
+
+## 🔴 Problem 6: Pro Tools Too Complex for Retail
+
+Professional tools like cross-margin, limit orders, TWAP, VWAP, on-chain stop-loss — all available on some DEXs. But they are designed for **quant traders**, not for the average user.
+
+**95% of DeFi users** cannot effectively use these tools, leading to:
+
+- Losing money due to misunderstanding cross-margin
+- Being liquidated for not knowing how to set stop-loss
+- Missing opportunities due to not knowing how to use limit orders
+
+---
+
+## Summary of Problems
+
+| # | Problem | Consequence |
 |:---:|:---|:---|
-| 1 | Phân mảnh trải nghiệm | 6 nền tảng cho 1 workflow |
-| 2 | Thất thoát giá trị ẩn | Mất $5K-$50K/năm/trader |
-| 3 | Cross-chain rủi ro | >$2.5B bị hack qua bridges |
-| 4 | Bot infra nghèo nàn | 60% volume nhưng 0% ưu tiên |
-| 5 | Thiếu AI/Intelligence | Tụt hậu 10 năm so với TradFi |
-| 6 | UX phức tạp | 95% users không dùng được pro tools |
+| 1 | Fragmented experience | 6 platforms for 1 workflow |
+| 2 | Hidden value loss | Losing $5K-$50K/year/trader |
+| 3 | Cross-chain risk | >$2.5B hacked via bridges |
+| 4 | Poor bot infrastructure | 60% volume but 0% priority |
+| 5 | Lack of AI/Intelligence | 10 years behind TradFi |
+| 6 | Complex UX | 95% users can't use pro tools |
 
-> **X18ex được xây dựng để giải quyết TẤT CẢ 6 vấn đề này — trong một nền tảng duy nhất.**
+> **X18ex is built to solve ALL 6 of these problems — in a single platform.**
 
 ---
 
-> **Tiếp theo:** [The X18 Vision →](the-vision.md)
+> **Next:** [The X18 Vision →](the-vision.md)

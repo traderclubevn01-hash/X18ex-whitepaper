@@ -1,11 +1,11 @@
 # Progressive Decentralization
 
-## Từ Startup Đến Autonomous DAO
+## From Startup to Autonomous DAO
 
-### Triết Lý
-Decentralization không phải đích đến — mà là hành trình. Quá nhanh sẽ tạo chaos, quá chậm sẽ mất trust. X18ex chọn con đường **progressive** — mỗi milestone đạt được mở khóa thêm một tầng decentralization.
+### Philosophy
+Decentralization is not a destination — it is a journey. Moving too quickly can create chaos, while moving too slowly can erode trust. X18ex chooses a **progressive** path — each achieved milestone unlocks an additional layer of decentralization.
 
-### Milestones Mở Khóa
+### Unlock Milestones
 
 | Milestone | Trigger | Governance Unlock |
 |:---|:---|:---|
@@ -18,4 +18,4 @@ Decentralization không phải đích đến — mà là hành trình. Quá nhan
 
 ---
 
-> **Tiếp theo:** [Development Phases →](../06-roadmap/phases.md)
+> **Next:** [Development Phases →](../06-roadmap/phases.md)

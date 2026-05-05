@@ -2,7 +2,7 @@
 
 ## Hybrid Order Book + AMM Trading Engine
 
-X18 Core là trái tim của toàn bộ nền tảng — engine giao dịch kết hợp **Central Limit Order Book (CLOB)** với **Automated Market Maker (AMM)** để đạt cả tốc độ và depth of liquidity.
+X18 Core is the heart of the entire platform — a trading engine that combines the **Central Limit Order Book (CLOB)** with **Automated Market Maker (AMM)** to achieve both speed and depth of liquidity.
 
 ### Mathematical Invariant (The Routing Equation)
 
@@ -19,17 +19,17 @@ Where:
 
 ---
 
-## Tại Sao Hybrid?
+## Why Hybrid?
 
-| Mô hình | Ưu điểm | Nhược điểm |
+| Model | Advantages | Disadvantages |
 |:---|:---|:---|
-| **Pure AMM** (Uniswap) | Thanh khoản tự động, permissionless | Slippage cao, impermanent loss |
-| **Pure Order Book** (Hyperliquid) | Tốc độ cao, precision | Cần market makers, liquidity cold start |
-| **Hybrid** (X18ex) | ✅ Tốc độ + thanh khoản + permissionless | Phức tạp hơn để xây dựng |
+| **Pure AMM** (Uniswap) | Automatic liquidity, permissionless | High slippage, impermanent loss |
+| **Pure Order Book** (Hyperliquid) | High speed, precision | Requires market makers, liquidity cold start |
+| **Hybrid** (X18ex) | ✅ Speed + liquidity + permissionless | More complex to build |
 
 ---
 
-## Kiến Trúc Core Engine
+## Core Engine Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -67,37 +67,37 @@ Where:
 
 ---
 
-## Order Types Hỗ Trợ
+## Supported Order Types
 
 ### Basic Orders
-| Order Type | Mô tả |
+| Order Type | Description |
 |:---|:---|
-| **Market Order** | Thực hiện ngay ở giá tốt nhất hiện tại |
-| **Limit Order** | Đặt giá mong muốn, chờ khớp |
-| **Stop-Loss** | Tự động bán khi giá xuống mức chỉ định |
-| **Take-Profit** | Tự động chốt lời khi giá đạt mục tiêu |
+| **Market Order** | Execute immediately at the best current price |
+| **Limit Order** | Set desired price, wait for match |
+| **Stop-Loss** | Automatically sell when price drops to a specified level |
+| **Take-Profit** | Automatically lock in profit when price reaches target |
 
 ### Advanced Orders
-| Order Type | Mô tả |
+| Order Type | Description |
 |:---|:---|
-| **TWAP** | Time-Weighted Average Price — chia nhỏ theo thời gian |
-| **VWAP** | Volume-Weighted Average Price — chia nhỏ theo volume |
-| **Trailing Stop** | Stop-loss di chuyển theo giá |
-| **OCO** | One-Cancels-Other — 2 lệnh liên kết |
-| **Iceberg** | Ẩn size lệnh lớn, hiển thị từng phần nhỏ |
+| **TWAP** | Time-Weighted Average Price — split over time |
+| **VWAP** | Volume-Weighted Average Price — split by volume |
+| **Trailing Stop** | Stop-loss that moves with the price |
+| **OCO** | One-Cancels-Other — two linked orders |
+| **Iceberg** | Hide large order size, display in smaller parts |
 
 ### AI-Enhanced Orders (X18 Exclusive)
-| Order Type | Mô tả |
+| Order Type | Description |
 |:---|:---|
-| **Smart Execute** | AI chọn timing, splitting, routing tối ưu |
-| **Intent Order** | Nêu ý định ("Buy 10 ETH at best price across all chains"), AI xử lý |
-| **Predictive Stop** | AI dự đoán volatility spike → tự động điều chỉnh stop |
+| **Smart Execute** | AI optimizes timing, splitting, routing |
+| **Intent Order** | State intent ("Buy 10 ETH at best price across all chains"), AI handles |
+| **Predictive Stop** | AI predicts volatility spike → automatically adjusts stop |
 
 ---
 
 ## Cross-Margin System
 
-X18ex triển khai hệ thống **Unified Cross-Margin** — tất cả positions, spot balances, và lending deposits được tính chung làm collateral:
+X18ex implements a **Unified Cross-Margin** system — all positions, spot balances, and lending deposits are collectively considered as collateral:
 
 ```
 ┌─────────────────────────────────────────┐
@@ -117,16 +117,16 @@ X18ex triển khai hệ thống **Unified Cross-Margin** — tất cả position
 └─────────────────────────────────────────┘
 ```
 
-**Lợi ích:**
-- Capital efficiency tăng **2-3x** so với isolated margin
-- Giảm rủi ro liquidation vì portfolio netting
-- Một tài khoản cho mọi hoạt động
+**Benefits:**
+- Capital efficiency increased by **2-3x** compared to isolated margin
+- Reduced liquidation risk due to portfolio netting
+- One account for all activities
 
 ---
 
 ## Performance Targets
 
-| Metric | Target | So sánh |
+| Metric | Target | Comparison |
 |:---|:---|:---|
 | **Order Latency** | <50ms | Hyperliquid: ~100ms |
 | **Orders/Second** | 100,000+ | Hyperliquid: 200K |
@@ -138,7 +138,7 @@ X18ex triển khai hệ thống **Unified Cross-Margin** — tất cả position
 
 ## Plugin Hook System
 
-Lấy cảm hứng từ Uniswap v4 Hooks, X18ex cho phép developers gắn custom logic vào lifecycle của pool:
+Inspired by Uniswap v4 Hooks, X18ex allows developers to attach custom logic to the lifecycle of a pool:
 
 ### Hook Points
 ```
@@ -150,12 +150,12 @@ beforeSettle → afterSettle
 ```
 
 ### Plugin Use Cases
-- **Dynamic Fee Plugin** — Phí thay đổi theo volatility
-- **TWAMM Plugin** — Time-Weighted AMM cho large orders
-- **KYC Gate Plugin** — Pools chỉ cho verified users
+- **Dynamic Fee Plugin** — Fees adjust based on volatility
+- **TWAMM Plugin** — Time-Weighted AMM for large orders
+- **KYC Gate Plugin** — Pools for verified users only
 - **Yield Optimizer Plugin** — Auto-compound LP rewards
-- **Notification Plugin** — Custom alerts khi điều kiện đạt
+- **Notification Plugin** — Custom alerts when conditions are met
 
 ---
 
-> **Tiếp theo:** [Intelligence Layer — X18 Brain →](intelligence-layer.md)
+> **Next:** [Intelligence Layer — X18 Brain →](intelligence-layer.md)

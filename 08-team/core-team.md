@@ -1,8 +1,8 @@
 # Core Team
 
-## Đội Ngũ Sáng Lập
+## Founding Team
 
-> X18ex được xây dựng bởi đội ngũ kỹ sư và product builders giàu kinh nghiệm từ DeFi, AI/ML, và traditional finance.
+> X18ex is built by a team of experienced engineers and product builders from DeFi, AI/ML, and traditional finance.
 
 ### Team Structure
 
@@ -21,8 +21,8 @@
 - Traditional finance executives
 - Legal & compliance experts
 
-> *Chi tiết team sẽ được công bố khi dự án chuyển sang Phase 1.*
+> *Team details will be announced as the project moves to Phase 1.*
 
 ---
 
-> **Tiếp theo:** [Partners & Backers →](partners.md)
+> **Next:** [Partners & Backers →](partners.md)

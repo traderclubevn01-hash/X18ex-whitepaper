@@ -1,13 +1,13 @@
 # Governance Framework
 
-## X18 DAO — Quản Trị Phi Tập Trung Tiến Bộ
+## X18 DAO — Advanced Decentralized Governance
 
-### Nguyên Tắc
-X18 DAO tuân theo mô hình **Progressive Decentralization** — bắt đầu từ team-led để đảm bảo tốc độ phát triển, tiến dần đến full on-chain governance khi protocol trưởng thành.
+### Principles
+X18 DAO adheres to the **Progressive Decentralization** model — starting from team-led to ensure development speed, gradually moving towards full on-chain governance as the protocol matures.
 
 ---
 
-## Cấu Trúc Governance
+## Governance Structure
 
 ```
                     ┌───────────────────┐
@@ -45,7 +45,7 @@ X18 DAO tuân theo mô hình **Progressive Decentralization** — bắt đầu t
 | **veX18 (locked 24 months)** | 1 X18 = 3 Votes |
 | **veX18 (locked 48 months)** | 1 X18 = 4 Votes |
 
-**Delegation**: Holders có thể delegate voting power cho đại diện đáng tin cậy.
+**Delegation**: Holders can delegate voting power to a trusted representative.
 
 ---
 
@@ -61,4 +61,4 @@ X18 DAO tuân theo mô hình **Progressive Decentralization** — bắt đầu t
 
 ---
 
-> **Tiếp theo:** [XIP Proposal System →](xip-system.md)
+> **Next:** [XIP Proposal System →](xip-system.md)

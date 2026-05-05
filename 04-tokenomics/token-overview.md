@@ -1,24 +1,24 @@
 # Token Overview — $X18
 
-## Tổng Quan Token
+## Token Overview
 
-### Thông Tin Cơ Bản
+### Basic Information
 
-| Thuộc tính | Giá trị |
+| Attribute | Value |
 |:---|:---|
-| **Tên Token** | X18 |
+| **Token Name** | X18 |
 | **Ticker** | $X18 |
-| **Tổng cung** | **18,000,000** (mười tám triệu) |
-| **Cung cố định** | ✅ Không bao giờ mint thêm |
-| **Mô hình** | Deflationary (giảm phát) |
-| **Chuẩn token** | ERC-20 (Ethereum) + Deploy trên mọi supported chain |
+| **Total Supply** | **18,000,000** (eighteen million) |
+| **Fixed Supply** | ✅ No additional minting |
+| **Model** | Deflationary |
+| **Token Standard** | ERC-20 (Ethereum) + Deploy on all supported chains |
 | **Decimals** | 18 |
 
 ---
 
-## Tại Sao 18 Triệu?
+## Why 18 Million?
 
-### So Sánh Supply
+### Supply Comparison
 
 | Token | Total Supply | Market Cap | Price/Token |
 |:---|---:|---:|---:|
@@ -28,18 +28,18 @@
 | DYDX | 1,000,000,000 | $1.2B | $1.20 |
 | 1INCH | 1,500,000,000 | $600M | $0.40 |
 
-**$X18 có supply gần tương đương Bitcoin** — scarcity cực kỳ cao. Khi kết hợp với burn mechanism, supply sẽ giảm theo thời gian, tạo áp lực tăng giá tự nhiên.
+**$X18 has a supply nearly equivalent to Bitcoin** — extremely high scarcity. When combined with a burn mechanism, the supply will decrease over time, creating natural upward price pressure.
 
 ---
 
-## Token Utility (7 Lớp Giá Trị)
+## Token Utility (7 Layers of Value)
 
-### 1. 🏛️ Governance — Quyền Quản Trị
-- 1 X18 = 1 Vote trong X18 DAO
+### 1. 🏛️ Governance
+- 1 X18 = 1 Vote in X18 DAO
 - Vote on: parameter changes, treasury allocation, new features
-- veX18 (vote-escrowed): khóa X18 để nhân đôi voting power
+- veX18 (vote-escrowed): lock X18 to double voting power
 
-### 2. 💰 Fee Discount — Giảm Phí Giao Dịch
+### 2. 💰 Fee Discount
 | Staking Tier | $X18 Staked | Fee Discount |
 |:---|---:|---:|
 | **Bronze** | 100 | 10% |
@@ -48,7 +48,7 @@
 | **Platinum** | 10,000 | 40% |
 | **Diamond** | 50,000 | 50% |
 
-### 3. 🤖 Bot Access Tier — Cấp Độ API
+### 3. 🤖 Bot Access Tier
 | Tier | $X18 Staked | Rate Limit | WebSocket Streams |
 |:---|---:|---:|---:|
 | **Free** | 0 | 100 req/min | 10 |
@@ -56,31 +56,31 @@
 | **Pro** | 500 | 10,000 req/min | 200 |
 | **Institutional** | 5,000 | 100,000 req/min | 1,000 |
 
-### 4. 🧠 AI Premium — Tính Năng AI Nâng Cao
+### 4. 🧠 AI Premium
 - **Free**: Basic routing, simple alerts
 - **Staker (100+ X18)**: AI Smart Routing, Risk Guardian
 - **Premium (500+ X18)**: Portfolio Pilot, Liquidation Shield, Sentiment Analysis
 
-### 5. ⚖️ Resolver Staking — Tham Gia Fill Orders
-- Resolvers stake X18 để tham gia intent-based order execution
-- Earn fees từ successful fills
-- Slashed nếu failed fills hoặc manipulation
+### 5. ⚖️ Resolver Staking
+- Resolvers stake X18 to participate in intent-based order execution
+- Earn fees from successful fills
+- Slashed for failed fills or manipulation
 
-### 6. 🔌 Plugin Economy — Kinh Tế Plugin
-- Plugin developers earn $X18 từ subscriptions
-- Premium plugin access yêu cầu $X18 staking
-- Plugin creation fee trả bằng $X18
+### 6. 🔌 Plugin Economy
+- Plugin developers earn $X18 from subscriptions
+- Premium plugin access requires $X18 staking
+- Plugin creation fee paid in $X18
 
-### 7. 📈 Revenue Sharing — Chia Sẻ Doanh Thu
-- veX18 holders nhận phần chia từ protocol revenue
-- Revenue từ: trading fees, liquidation fees, plugin fees
-- Distributed weekly pro-rata theo veX18 balance
+### 7. 📈 Revenue Sharing
+- veX18 holders receive a share of protocol revenue
+- Revenue from: trading fees, liquidation fees, plugin fees
+- Distributed weekly pro-rata based on veX18 balance
 
 ---
 
-## Giá Trị Token = f(Protocol Revenue)
+## Token Value = f(Protocol Revenue)
 
-$X18 được bảo chứng bởi **doanh thu thực** từ protocol, không phải narrative:
+$X18 is backed by **real revenue** from the protocol, not narrative:
 
 ```
 Protocol Revenue Sources:
@@ -100,4 +100,4 @@ Revenue Allocation:
 
 ---
 
-> **Tiếp theo:** [Distribution & Vesting →](distribution.md)
+> **Next:** [Distribution & Vesting →](distribution.md)

@@ -1,6 +1,6 @@
 # Brand Kit & Media
 
-## Tài Nguyên Thương Hiệu
+## Brand Resources
 
 ### Brand Colors
 | Color | Hex | Usage |
@@ -36,4 +36,4 @@
 
 ## Legal Disclaimer
 
-> Tài liệu này chỉ mang tính chất thông tin. Nó không cấu thành lời khuyên đầu tư hay tài chính. Token $X18 không phải là chứng khoán. Vui lòng tham khảo ý kiến chuyên gia tài chính trước khi đưa ra quyết định đầu tư. DeFi trading tiềm ẩn rủi ro, bao gồm mất toàn bộ vốn.
+> This document is for informational purposes only. It does not constitute investment or financial advice. The $X18 token is not a security. Please consult a financial expert before making any investment decisions. DeFi trading carries risks, including the potential loss of all capital.

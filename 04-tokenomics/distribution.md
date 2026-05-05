@@ -1,8 +1,8 @@
 # Distribution & Vesting
 
-## Phân Bổ Token $X18
+## Token $X18 Allocation
 
-### Tổng Cung: 18,000,000 $X18
+### Total Supply: 18,000,000 $X18
 
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
@@ -21,14 +21,14 @@
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
-### Chi Tiết Phân Bổ
+### Allocation Details
 
-| Allocation | % | Tokens | Mục đích |
+| Allocation | % | Tokens | Purpose |
 |:---|:---:|---:|:---|
 | **Community & Ecosystem** | 30% | 5,400,000 | Liquidity mining, staking rewards, grants, hackathons |
 | **Liquidity & Market Making** | 18% | 3,240,000 | DEX liquidity pools, CEX listings, market stability |
 | **Team & Core Contributors** | 18% | 3,240,000 | Core team compensation, long-term alignment |
-| **Treasury (DAO)** | 15% | 2,700,000 | DAO-controlled fund cho phát triển tương lai |
+| **Treasury (DAO)** | 15% | 2,700,000 | DAO-controlled fund for future development |
 | **Private Sale** | 10% | 1,800,000 | Early investors, strategic partners |
 | **Public Sale** | 5% | 900,000 | Community token sale |
 | **Advisors** | 2% | 360,000 | Strategic advisors, industry experts |
@@ -36,7 +36,7 @@
 
 ---
 
-## Vesting Schedule (Lịch Mở Khóa)
+## Vesting Schedule
 
 ### Visual Timeline
 
@@ -70,18 +70,18 @@ ry      DAO vote required, progressive
 ████ = Released   ░░░░ = Vesting   .... = Cliff (locked)
 ```
 
-### Chi Tiết Vesting
+### Vesting Details
 
 | Allocation | Cliff | Vesting | TGE Unlock |
 |:---|:---|:---|:---:|
-| **Public Sale** | Không | 12 tháng linear | 10% |
-| **Airdrop** | Không | Event-based | 100% |
-| **Private Sale** | 6 tháng | 18 tháng linear | 0% |
-| **Advisors** | 6 tháng | 24 tháng linear | 0% |
-| **Liquidity** | Không | Progressive | As needed |
-| **Community** | 3 tháng | 48 tháng linear | 0% |
-| **Team** | **18 tháng** | 36 tháng linear | **0%** |
-| **Treasury** | 12 tháng | DAO vote required | 0% |
+| **Public Sale** | None | 12 months linear | 10% |
+| **Airdrop** | None | Event-based | 100% |
+| **Private Sale** | 6 months | 18 months linear | 0% |
+| **Advisors** | 6 months | 24 months linear | 0% |
+| **Liquidity** | None | Progressive | As needed |
+| **Community** | 3 months | 48 months linear | 0% |
+| **Team** | **18 months** | 36 months linear | **0%** |
+| **Treasury** | 12 months | DAO vote required | 0% |
 
 ---
 
@@ -128,22 +128,22 @@ Supply (M)
 
 ## Anti-Dump Protection
 
-### Thiết Kế Chống Xả Token
-1. **Team cliff 18 tháng** — Dài nhất trong ngành, cam kết long-term
-2. **Gradual vesting** — Không có "cliff dump" events
-3. **veX18 incentive** — Khóa token = nhân voting power + revenue share
-4. **Burn absorbs selling** — 40% revenue buy back & burn liên tục
+### Anti-Dump Design
+1. **Team cliff 18 months** — Longest in the industry, committed to long-term
+2. **Gradual vesting** — No "cliff dump" events
+3. **veX18 incentive** — Lock tokens = boost voting power + revenue share
+4. **Burn absorbs selling** — 40% revenue buy back & burn continuously
 
 ### FDV vs Market Cap
-| Metric | Tại TGE | Tại $10/token |
+| Metric | At TGE | At $10/token |
 |:---|---:|---:|
 | **Circulating Supply** | 2,500,000 | 2,500,000 |
 | **Market Cap** | $25,000,000 | $25,000,000 |
 | **FDV** | $180,000,000 | $180,000,000 |
 | **MC/FDV Ratio** | 13.9% | 13.9% |
 
-> **MC/FDV ratio 13.9% tại TGE** — cho thấy upside potential lớn khi supply mở khóa dần, đặc biệt kết hợp với burn mechanism.
+> **MC/FDV ratio 13.9% at TGE** — indicates significant upside potential as supply gradually unlocks, especially combined with the burn mechanism.
 
 ---
 
-> **Tiếp theo:** [Deflationary Mechanics →](deflationary.md)
+> **Next:** [Deflationary Mechanics →](deflationary.md)

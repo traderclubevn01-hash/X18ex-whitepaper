@@ -1,6 +1,6 @@
 # Operational Security
 
-## Bảo Mật Vận Hành
+## Operational Security
 
 ### Infrastructure Security
 - **DDoS Protection**: Enterprise-grade mitigation
@@ -11,11 +11,11 @@
 - **Incident Response**: <15 minute response time for critical issues
 
 ### User Protection
-- **Non-custodial**: X18ex KHÔNG BAO GIỜ giữ private keys
-- **Transaction Simulation**: Preview mọi transaction trước khi sign
+- **Non-custodial**: X18ex NEVER holds private keys
+- **Transaction Simulation**: Preview all transactions before signing
 - **Phishing Protection**: Domain verification warnings
-- **Contract Verification**: Auto-check contract source trên Etherscan
-- **Scam Token Detection**: AI phát hiện honeypot, rug pull tokens
+- **Contract Verification**: Auto-check contract source on Etherscan
+- **Scam Token Detection**: AI detects honeypot, rug pull tokens
 
 ### Insurance Fund
 - 5% protocol revenue → Insurance fund
@@ -24,4 +24,4 @@
 
 ---
 
-> **Tiếp theo:** [Core Team →](../08-team/core-team.md)
+> **Next:** [Core Team →](../08-team/core-team.md)

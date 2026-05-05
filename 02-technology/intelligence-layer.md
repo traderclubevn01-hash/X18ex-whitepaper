@@ -1,12 +1,12 @@
 # Intelligence Layer — X18 Brain
 
-## AI-Native: Không Phải Tính Năng Phụ, Mà Là Core Engine
+## AI-Native: Not a Side Feature, But the Core Engine
 
-X18 Brain là lớp trí tuệ nhân tạo **tích hợp sâu** vào mọi hoạt động của nền tảng. Đây không phải chatbot hay AI wrapper — mà là một hệ thống ML/AI thực sự ảnh hưởng đến routing, risk, execution, và protection.
+X18 Brain is the **deeply integrated** artificial intelligence layer in every operation of the platform. It is not a chatbot or an AI wrapper — it is a true ML/AI system impacting routing, risk, execution, and protection.
 
 ---
 
-## Kiến Trúc X18 Brain
+## X18 Brain Architecture
 
 ```
                     ┌─────────────────────┐
@@ -50,24 +50,24 @@ X18 Brain là lớp trí tuệ nhân tạo **tích hợp sâu** vào mọi hoạ
 
 ## Module 1: AI Smart Router
 
-### Vấn Đề Hiện Tại
-Các DEX aggregator như 1inch dùng thuật toán tĩnh (Dijkstra, BFS) để tìm đường swap. Chúng tối ưu **tại thời điểm hiện tại** nhưng không dự đoán được:
-- Gas price sẽ thay đổi trong 10 giây tới
-- Slippage thực tế khi order được submit
-- Pool nào sẽ bị drain bởi MEV bot
+### Current Problem
+DEX aggregators like 1inch use static algorithms (Dijkstra, BFS) for swap pathfinding. They optimize **at the current moment** but cannot predict:
+- Gas price changes in the next 10 seconds
+- Actual slippage when the order is submitted
+- Which pool will be drained by MEV bots
 
-### Giải Pháp X18
-**ML-Powered Pathfinder** — một model được train trên hàng triệu transactions lịch sử:
+### X18 Solution
+**ML-Powered Pathfinder** — a model trained on millions of historical transactions:
 
-| Feature | Mô tả |
+| Feature | Description |
 |:---|:---|
-| **Gas Price Prediction** | LSTM model dự đoán gas trong 30s-5min tới |
-| **Slippage Estimation** | Random Forest model ước tính slippage thực tế |
+| **Gas Price Prediction** | LSTM model predicting gas for the next 30s-5min |
+| **Slippage Estimation** | Random Forest model estimating actual slippage |
 | **Liquidity Depth Scoring** | Real-time scoring of pool health & depth |
-| **Multi-chain Arbitrage** | Phát hiện price differences cross-chain |
-| **Execution Timing** | Tìm thời điểm tối ưu để submit transaction |
+| **Multi-chain Arbitrage** | Detecting price differences cross-chain |
+| **Execution Timing** | Finding the optimal time to submit transactions |
 
-### Ví Dụ Thực Tế
+### Real-World Example
 ```
 User: "Swap 50 ETH → USDC"
 
@@ -93,7 +93,7 @@ X18 Brain Router:
 ## Module 2: Risk Guardian
 
 ### Real-time Risk Dashboard
-Mỗi position và portfolio được monitored bởi Risk Guardian:
+Each position and portfolio is monitored by Risk Guardian:
 
 ```
 ╔═══════════════════════════════════════════╗
@@ -135,9 +135,9 @@ Mỗi position và portfolio được monitored bởi Risk Guardian:
 
 ## Module 3: MEV Protection Shield
 
-### MEV Attack Types Chống Được
+### MEV Attack Types Mitigated
 
-| Attack | Phương pháp bảo vệ |
+| Attack | Protection Method |
 |:---|:---|
 | **Front-running** | Private mempool + commit-reveal scheme |
 | **Sandwich Attack** | Deadline enforcement + slippage bounds |
@@ -145,7 +145,7 @@ Mỗi position và portfolio được monitored bởi Risk Guardian:
 | **JIT Liquidity** | Detection & warning system |
 | **Time-bandit** | Multiple block confirmation |
 
-### Cơ Chế Hoạt Động
+### Operational Mechanism
 ```
 1. User submits trade intent (signed, encrypted)
          │
@@ -166,34 +166,34 @@ Mỗi position và portfolio được monitored bởi Risk Guardian:
 
 ## Module 4: Liquidation Shield
 
-### Dự Đoán Thay Vì Phản Ứng
+### Predictive Rather Than Reactive
 
-Hầu hết DEX chỉ **liquidate** khi đã quá muộn. X18 Brain **dự đoán** nguy cơ liquidation **trước 15 phút** và đưa ra các hành động phòng ngừa:
+Most DEXs only **liquidate** when it's too late. X18 Brain **predicts** liquidation risk **15 minutes in advance** and suggests preventive actions:
 
-| Cấp độ | Trigger | Hành động |
+| Level | Trigger | Action |
 |:---|:---|:---|
 | 🟡 **Warning** | Health < 1.5 + vol spike predicted | Push notification + email |
-| 🟠 **Critical** | Health < 1.2 | Auto-suggest: add collateral hoặc reduce position |
-| 🔴 **Emergency** | Health < 1.05 (nếu user bật auto-protect) | Auto-partial-close 20% position để restore health |
+| 🟠 **Critical** | Health < 1.2 | Auto-suggest: add collateral or reduce position |
+| 🔴 **Emergency** | Health < 1.05 (if user enables auto-protect) | Auto-partial-close 20% position to restore health |
 
-**Opt-in Auto-Protect**: Người dùng có thể bật/tắt. Khi bật, AI tự động bảo vệ position thay vì để liquidation engine xử lý (tiết kiệm penalty fee).
+**Opt-in Auto-Protect**: Users can enable/disable. When enabled, AI automatically protects the position instead of letting the liquidation engine handle it (saving penalty fees).
 
 ---
 
 ## Module 5: Portfolio Pilot
 
 ### AI Portfolio Optimization
-- **Auto-Rebalance** — Tự cân bằng portfolio theo target allocation
-- **Yield Routing** — Tự tìm và chuyển liquidity đến pool có yield tốt nhất
-- **Tax-Loss Harvesting** — Tự động realize loss để tối ưu thuế (opt-in)
-- **Correlation Analysis** — Cảnh báo khi portfolio quá tập trung vào 1 sector
+- **Auto-Rebalance** — Automatically balances the portfolio according to target allocation
+- **Yield Routing** — Automatically finds and routes liquidity to the best yield pools
+- **Tax-Loss Harvesting** — Automatically realizes losses to optimize taxes (opt-in)
+- **Correlation Analysis** — Alerts when the portfolio is overly concentrated in one sector
 
 ---
 
 ## Privacy & Data
 
-> **Cam kết**: X18 Brain KHÔNG bao giờ lưu trữ private keys, seed phrases, hoặc giao dịch cá nhân. Tất cả AI models chạy trên aggregated, anonymized data. Người dùng có toàn quyền opt-in/opt-out mọi AI feature.
+> **Commitment**: X18 Brain NEVER stores private keys, seed phrases, or personal transactions. All AI models run on aggregated, anonymized data. Users have full opt-in/opt-out control over all AI features.
 
 ---
 
-> **Tiếp theo:** [Cross-Chain Infrastructure →](cross-chain.md)
+> **Next:** [Cross-Chain Infrastructure →](cross-chain.md)

@@ -1,29 +1,29 @@
 # MEV Protection & Security
 
-## Bảo Vệ Người Dùng Là Ưu Tiên Số 1
+## User Protection is Priority Number One
 
-### MEV: Thuế Ẩn Trên Mỗi Trade
+### MEV: The Hidden Tax on Every Trade
 
-MEV (Maximal Extractable Value) là "thuế ẩn" mà trader phải trả cho bot operators trên blockchain. Ước tính **$1.4 tỷ USD/năm** bị mất do MEV.
+MEV (Maximal Extractable Value) is the "hidden tax" that traders pay to bot operators on the blockchain. It is estimated that **$1.4 billion per year** is lost due to MEV.
 
 ### X18 Protection Stack
 
-| Tầng | Cơ chế | Chống |
+| Layer | Mechanism | Protection Against |
 |:---|:---|:---|
-| **Tầng 1** | Private Order Flow | Front-running |
-| **Tầng 2** | Commit-Reveal Scheme | Sandwich attacks |
-| **Tầng 3** | Batch Auction Settlement | Back-running |
-| **Tầng 4** | AI MEV Detection | Zero-day MEV strategies |
-| **Tầng 5** | Slippage Guardian | Excessive slippage |
+| **Layer 1** | Private Order Flow | Front-running |
+| **Layer 2** | Commit-Reveal Scheme | Sandwich attacks |
+| **Layer 3** | Batch Auction Settlement | Back-running |
+| **Layer 4** | AI MEV Detection | Zero-day MEV strategies |
+| **Layer 5** | Slippage Guardian | Excessive slippage |
 
 ### Smart Contract Security
 
-- **Multi-audit**: Tối thiểu 3 audit firms độc lập trước mainnet
-- **Formal Verification**: Logic-critical contracts được verify toán học
-- **Bug Bounty**: Lên tới $500,000 cho critical vulnerabilities
-- **Timelock**: Tất cả upgrades có 48h timelock
-- **Emergency Pause**: Multi-sig emergency pause cho trường hợp khẩn cấp
+- **Multi-audit**: At least 3 independent audit firms before mainnet
+- **Formal Verification**: Logic-critical contracts are mathematically verified
+- **Bug Bounty**: Up to $500,000 for critical vulnerabilities
+- **Timelock**: All upgrades have a 48-hour timelock
+- **Emergency Pause**: Multi-sig emergency pause for critical situations
 
 ---
 
-> **Tiếp theo:** [Spot Trading →](../03-products/spot-trading.md)
+> **Next:** [Spot Trading →](../03-products/spot-trading.md)

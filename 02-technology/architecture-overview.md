@@ -1,12 +1,12 @@
 # Architecture Overview
 
-## Kiến Trúc Tổng Quan X18ex
+## X18ex Architecture Overview
 
-X18ex được thiết kế theo kiến trúc **5 tầng** (Five-Layer Stack) — mỗi tầng giải quyết một nhóm vấn đề cụ thể và hoạt động độc lập nhưng kết nối chặt chẽ.
+X18ex is designed with a **5-layer architecture** (Five-Layer Stack) — each layer addresses a specific group of issues and operates independently yet is tightly interconnected.
 
 ---
 
-## Sơ Đồ Kiến Trúc
+## Architecture Diagram
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
@@ -62,64 +62,64 @@ X18ex được thiết kế theo kiến trúc **5 tầng** (Five-Layer Stack) �
 
 ---
 
-## Mô Tả Từng Tầng
+## Description of Each Layer
 
-### ⚡ Tầng 1: Protocol Layer — "The Foundation"
+### ⚡ Layer 1: Protocol Layer — "The Foundation"
 
-Tầng nền tảng nơi mọi logic giao dịch xảy ra on-chain.
+The foundational layer where all transaction logic occurs on-chain.
 
-| Component | Chức năng | Công nghệ tham chiếu |
+| Component | Function | Reference Technology |
 |:---|:---|:---|
-| **Hybrid Order Book + AMM** | Kết hợp tốc độ CLOB với thanh khoản AMM | Vertex Protocol + Uniswap v4 |
-| **Perpetuals Engine** | Hợp đồng tương lai vĩnh viễn, leverage tới 50x | Hyperliquid + dYdX |
-| **Lending & Borrowing** | Cho vay/mượn tích hợp trong margin | Aave + Vertex |
+| **Hybrid Order Book + AMM** | Combines CLOB speed with AMM liquidity | Vertex Protocol + Uniswap v4 |
+| **Perpetuals Engine** | Perpetual futures contracts, leverage up to 50x | Hyperliquid + dYdX |
+| **Lending & Borrowing** | Integrated lending/borrowing within margin | Aave + Vertex |
 | **Liquidity Pools** | Concentrated liquidity + custom curves | Uniswap v4 Hooks |
-| **Settlement Layer** | On-chain settlement đảm bảo transparency | Ethereum L1/L2 |
-| **Plugin Hook Engine** | Mở rộng chức năng qua smart contract plugins | Uniswap v4 Hooks |
+| **Settlement Layer** | On-chain settlement ensures transparency | Ethereum L1/L2 |
+| **Plugin Hook Engine** | Extends functionality via smart contract plugins | Uniswap v4 Hooks |
 
-### 🧠 Tầng 2: Intelligence Layer — "The Brain"
+### 🧠 Layer 2: Intelligence Layer — "The Brain"
 
-Tầng AI tạo nên sự khác biệt cốt lõi — không ai khác có.
+The AI layer that creates the core differentiation — unmatched by others.
 
-| Component | Chức năng |
+| Component | Function |
 |:---|:---|
-| **AI Smart Routing** | ML model quét 200+ liquidity sources, dự đoán slippage & gas |
-| **Risk Guardian** | Real-time risk scoring cho mọi trade và position |
-| **MEV Protection Shield** | AI phát hiện và ngăn chặn MEV attacks |
-| **Portfolio Pilot** | AI tự động rebalance và optimize portfolio |
-| **Market Sentiment** | NLP phân tích social feeds → trading signals |
-| **Liquidation Shield** | Dự đoán liquidation risk 15 phút trước, auto-hedge |
+| **AI Smart Routing** | ML model scans 200+ liquidity sources, predicts slippage & gas |
+| **Risk Guardian** | Real-time risk scoring for every trade and position |
+| **MEV Protection Shield** | AI detects and prevents MEV attacks |
+| **Portfolio Pilot** | AI automatically rebalances and optimizes portfolios |
+| **Market Sentiment** | NLP analyzes social feeds → trading signals |
+| **Liquidation Shield** | Predicts liquidation risk 15 minutes ahead, auto-hedge |
 
-### 🔌 Tầng 3: Integration Layer — "The Connectors"
+### 🔌 Layer 3: Integration Layer — "The Connectors"
 
-Tầng kết nối giữa protocol và ứng dụng.
+The connecting layer between protocol and applications.
 
-| Component | Chức năng |
+| Component | Function |
 |:---|:---|
 | **REST API Gateway** | Full trading, data, account management API |
 | **WebSocket Feeds** | Real-time orderbook, trades, positions, alerts |
-| **Webhook System** | Push notifications cho events: fills, liquidations |
-| **Wallet Abstraction** | Kết nối mọi wallet type: EOA, Smart Account, MPC |
-| **Cross-chain Bridge** | Intent-based bridging an toàn, không custodial |
+| **Webhook System** | Push notifications for events: fills, liquidations |
+| **Wallet Abstraction** | Connects all wallet types: EOA, Smart Account, MPC |
+| **Cross-chain Bridge** | Intent-based bridging, secure, non-custodial |
 | **Account Abstraction** | Gasless transactions, session keys, social login |
 
-### 📱 Tầng 4: Application Layer — "The Interface"
+### 📱 Layer 4: Application Layer — "The Interface"
 
-Tầng giao diện người dùng.
+The user interface layer.
 
-| Component | Chức năng |
+| Component | Function |
 |:---|:---|
 | **Web3 Trading Terminal** | Full-featured trading interface, TradingView charts |
 | **Mobile App** | iOS/Android native app |
 | **Bot Dashboard** | API key management, strategy deployment, performance analytics |
 
-### 🌍 Tầng 5: Ecosystem Layer — "The Community"
+### 🌍 Layer 5: Ecosystem Layer — "The Community"
 
-Tầng hệ sinh thái mở.
+The open ecosystem layer.
 
-| Component | Chức năng |
+| Component | Function |
 |:---|:---|
-| **Plugin Marketplace** | Mua/bán/chia sẻ plugins |
+| **Plugin Marketplace** | Buy/sell/share plugins |
 | **Developer Community** | Grants, hackathons, documentation |
 | **X18 DAO** | Governance, treasury, proposals |
 
@@ -127,21 +127,21 @@ Tầng hệ sinh thái mở.
 
 ## Multi-Chain Substrate
 
-X18ex hỗ trợ multi-chain từ ngày đầu thông qua kiến trúc **Chain Abstraction**:
+X18ex supports multi-chain from day one through **Chain Abstraction** architecture:
 
 ### Phase 1 — Launch Chains
-| Chain | Type | Lý do |
+| Chain | Type | Reason |
 |:---|:---|:---|
-| **Ethereum** | L1 | Liquidity sâu nhất, institutional trust |
-| **Arbitrum** | L2 | Low gas, fast, DeFi ecosystem mạnh |
+| **Ethereum** | L1 | Deepest liquidity, institutional trust |
+| **Arbitrum** | L2 | Low gas, fast, strong DeFi ecosystem |
 | **Base** | L2 | Coinbase ecosystem, retail onboarding |
-| **BSC** | L1 | Volume lớn, chi phí thấp |
+| **BSC** | L1 | High volume, low cost |
 
 ### Phase 2 — Expansion Chains
-| Chain | Type | Lý do |
+| Chain | Type | Reason |
 |:---|:---|:---|
 | **Polygon** | L2 | Massive user base, enterprise |
-| **Solana** | L1 | Tốc độ cao nhất, non-EVM diversity |
+| **Solana** | L1 | Highest speed, non-EVM diversity |
 | **Avalanche** | L1 | Institutional DeFi, subnets |
 | **Optimism** | L2 | Superchain ecosystem |
 
@@ -151,20 +151,20 @@ X18ex hỗ trợ multi-chain từ ngày đầu thông qua kiến trúc **Chain A
 
 ---
 
-## Triết Lý Kiến Trúc
+## Architectural Philosophy
 
-### Modular, Không Monolithic
-Mỗi module có thể nâng cấp độc lập. Upgrade perpetuals engine không ảnh hưởng spot trading.
+### Modular, Not Monolithic
+Each module can be upgraded independently. Upgrading the perpetuals engine does not affect spot trading.
 
 ### Open Core, Plugin Extensions
-Core protocol là open-source. Extensions qua plugin marketplace cho phép innovation từ community.
+Core protocol is open-source. Extensions via plugin marketplace allow for community-driven innovation.
 
 ### On-chain Settlement, Off-chain Speed
-Order matching off-chain cho tốc độ. Settlement on-chain cho transparency và security.
+Order matching is off-chain for speed. Settlement is on-chain for transparency and security.
 
 ### AI-Enhanced, Not AI-Dependent
-AI tối ưu mọi thứ nhưng protocol vẫn hoạt động hoàn hảo nếu AI layer offline. Không có single point of failure.
+AI optimizes everything, but the protocol still functions perfectly if the AI layer is offline. No single point of failure.
 
 ---
 
-> **Tiếp theo:** [X18 Core Engine →](core-engine.md)
+> **Next:** [X18 Core Engine →](core-engine.md)

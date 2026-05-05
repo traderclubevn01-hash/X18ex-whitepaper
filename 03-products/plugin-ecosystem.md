@@ -1,16 +1,16 @@
 # Plugin Ecosystem
 
-## Mở Rộng Không Giới Hạn Qua Plugins
+## Unlimited Expansion Through Plugins
 
-Lấy cảm hứng từ Uniswap v4 Hooks, X18ex tạo ra một **Plugin Marketplace** nơi developers có thể xây dựng và monetize các extensions cho nền tảng.
+Inspired by Uniswap v4 Hooks, X18ex creates a **Plugin Marketplace** where developers can build and monetize extensions for the platform.
 
 ---
 
 ## Plugin Categories
 
-| Category | Ví dụ |
+| Category | Example |
 |:---|:---|
-| **Fee Plugins** | Dynamic fee dựa trên volatility, volume-based discounts |
+| **Fee Plugins** | Dynamic fee based on volatility, volume-based discounts |
 | **AMM Curve Plugins** | StableSwap curves, concentrated liquidity presets |
 | **Strategy Plugins** | Auto-compound, yield optimizer, rebalancer |
 | **Compliance Plugins** | KYC gate, geo-restrictions, transaction limits |
@@ -20,9 +20,9 @@ Lấy cảm hứng từ Uniswap v4 Hooks, X18ex tạo ra một **Plugin Marketpl
 
 ## Revenue Model
 - **Free Plugins**: Community-driven, open source
-- **Premium Plugins**: Subscription bằng $X18
+- **Premium Plugins**: Subscription via $X18
 - **Revenue Split**: 70% Developer / 20% Protocol / 10% Burn
 
 ---
 
-> **Tiếp theo:** [Portfolio Manager →](portfolio-manager.md)
+> **Next:** [Portfolio Manager →](portfolio-manager.md)

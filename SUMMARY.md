@@ -4,7 +4,7 @@
 
 * [Executive Summary](01-introduction/executive-summary.md)
 * [The Problem](01-introduction/the-problem.md)
-* [Tầm Nhìn, Sứ Mệnh & Mục Tiêu](01-introduction/the-vision.md)
+* [Vision, Mission & Objectives](01-introduction/the-vision.md)
 * [Why "X18"](01-introduction/why-x18.md)
 
 ## ⚡ Technology & Architecture
@@ -20,7 +20,7 @@
 * [Spot Trading](03-products/spot-trading.md)
 * [Perpetuals & Derivatives](03-products/perpetuals.md)
 * [Smart Aggregation](03-products/aggregation.md)
-* [AI Bots Tích Hợp Sàn](03-products/ai-bots.md)
+* [AI Bots Integrated Exchange](03-products/ai-bots.md)
 * [X18 Bot Platform & SDK](03-products/bot-platform.md)
 * [AI Trading Assistant](03-products/ai-assistant.md)
 * [X18 Game — Play & Earn](03-products/x18-game.md)
@@ -32,8 +32,8 @@
 * [Token Overview](04-tokenomics/token-overview.md)
 * [Distribution & Vesting](04-tokenomics/distribution.md)
 * [🔥 Node Sale Program](04-tokenomics/node-sale.md)
-* [📈 Tại Sao $X18 Tăng Giá?](04-tokenomics/why-x18-grows.md)
-* [🧠 Chiến Lược Bán Node Thông Minh](04-tokenomics/node-sale-strategy.md)
+* [📈 Why Does $X18 Increase in Value?](04-tokenomics/why-x18-grows.md)
+* [🧠 Smart Node Sale Strategy](04-tokenomics/node-sale-strategy.md)
 * [Deflationary Mechanics](04-tokenomics/deflationary.md)
 * [Revenue Model](04-tokenomics/revenue-model.md)
 

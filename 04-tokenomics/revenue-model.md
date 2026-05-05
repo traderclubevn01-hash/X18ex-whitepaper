@@ -1,16 +1,16 @@
 # Revenue Model
 
-## Doanh Thu Thực, Không Phải Inflation
+## Real Revenue, Not Inflation
 
-X18ex được thiết kế để tạo ra **doanh thu thực** (real yield) từ protocol operations, không phải in token mới để trả rewards.
+X18ex is designed to generate **real yield** from protocol operations, not by minting new tokens to pay rewards.
 
 ---
 
-## Nguồn Doanh Thu
+## Revenue Sources
 
-| Nguồn | % Revenue | Mô tả |
+| Source | % Revenue | Description |
 |:---|:---:|:---|
-| **Spot Trading Fees** | 30% | 0.05% - 0.3% mỗi trade (tiered by volume) |
+| **Spot Trading Fees** | 30% | 0.05% - 0.3% per trade (tiered by volume) |
 | **Perpetual Trading Fees** | 30% | 0.02% maker / 0.05% taker |
 | **Aggregation Routing Fees** | 15% | Positive slippage capture + routing fee |
 | **Cross-chain Settlement** | 10% | Intent settlement fees |
@@ -32,7 +32,7 @@ X18ex được thiết kế để tạo ra **doanh thu thực** (real yield) t�
 | $10M - $100M | 0.03% | 0.08% |
 | > $100M | 0.01% | 0.05% |
 
-*$X18 stakers nhận thêm discount lên đến 50%*
+*$X18 stakers receive additional discounts up to 50%*
 
 ### Revenue Distribution
 
@@ -61,4 +61,4 @@ Total Protocol Revenue
 
 ---
 
-> **Tiếp theo:** [Governance Framework →](../05-governance/framework.md)
+> **Next:** [Governance Framework →](../05-governance/framework.md)

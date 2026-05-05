@@ -1,20 +1,20 @@
-# Tại Sao $X18 Tăng Giá?
+# Why is $X18 Increasing in Price?
 
-## 8 Động Lực Tăng Giá Cấu Trúc Của $X18
+## 8 Structural Price Drivers of $X18
 
-> Đây không phải dự đoán — mà là phân tích cơ chế kinh tế được thiết kế vào protocol.
-
----
-
-## Phương Trình Tăng Giá
-
-```
-Giá $X18 = f(Demand ↑, Supply ↓, Revenue ↑)
-```
+> This is not a prediction — it is an analysis of the economic mechanisms designed into the protocol.
 
 ---
 
-## #1: Supply Cực Kỳ Khan Hiếm
+## Price Increase Equation
+
+```
+Price of $X18 = f(Demand ↑, Supply ↓, Revenue ↑)
+```
+
+---
+
+## #1: Extremely Scarce Supply
 
 | Token | Total Supply |
 |:---|---:|
@@ -24,13 +24,13 @@ Giá $X18 = f(Demand ↑, Supply ↓, Revenue ↑)
 | DYDX | 1,000,000,000 |
 | 1INCH | 1,500,000,000 |
 
-**$X18 có supply thấp hơn Bitcoin.** Với chỉ 18 triệu tokens — mỗi token đều cực kỳ quý giá.
+**$X18 has a lower supply than Bitcoin.** With only 18 million tokens — each token is extremely valuable.
 
-> 💡 Nếu X18ex đạt 1 triệu users, mỗi người giữ 18 tokens → demand = toàn bộ supply.
+> 💡 If X18ex reaches 1 million users, each holding 18 tokens → demand = entire supply.
 
 ---
 
-## #2: Burn Liên Tục — Mỗi Ngày Supply Giảm
+## #2: Continuous Burn — Daily Supply Reduction
 
 To quantify the deflationary pressure on $X18, we introduce the **X18ex Continuous Burn Equation**:
 
@@ -45,47 +45,47 @@ Where:
 
 *This equation proves that $S_t$ is strictly decreasing over time, creating a perpetual mathematical floor price as long as $V(\tau) > 0$.*
 
-| Nguồn Burn | Cơ chế |
+| Burn Source | Mechanism |
 |:---|:---|
-| **Trading Fee Burn** | 40% tổng fees → buy back & burn |
+| **Trading Fee Burn** | 40% of total fees → buy back & burn |
 | **Plugin Marketplace** | 10% commission → burn |
 | **Cross-chain Fees** | Settlement fees → burn |
 | **AI Premium** | 20% subscription → burn |
 | **Resolver Slashing** | 100% slashed → burn |
 | **Node Unsold** | 100% unsold tokens → burn (one-time) |
 
-### Mục tiêu: 18M → 8,888,888 trong 10 năm (-51%)
+### Goal: 18M → 8,888,888 in 10 years (-51%)
 
-> **Quy luật kinh tế**: Supply giảm 51% + demand giữ nguyên hoặc tăng → giá **phải** tăng.
+> **Economic Law**: Supply decreases by 51% + demand remains constant or increases → price **must** rise.
 
 ---
 
-## #3: 7 Lớp Demand Tạo Áp Lực Mua
+## #3: 7 Layers of Demand Creating Buying Pressure
 
-$X18 có **7 lớp utility** — mỗi lớp tạo demand thực sự:
+$X18 has **7 layers of utility** — each layer creates real demand:
 
-| Lớp | Utility | Cần $X18 để... |
+| Layer | Utility | Need $X18 to... |
 |:---:|:---|:---|
-| 1 | **Governance** | Vote trong X18 DAO |
-| 2 | **Fee Discount** | Stake → giảm phí tới 50% |
-| 3 | **Bot Access** | Stake → unlock API tốc độ cao |
+| 1 | **Governance** | Vote in X18 DAO |
+| 2 | **Fee Discount** | Stake → reduce fees up to 50% |
+| 3 | **Bot Access** | Stake → unlock high-speed API |
 | 4 | **AI Premium** | Stake → AI Portfolio Pilot, Risk Guardian |
-| 5 | **Resolver Staking** | Stake → earn fees từ order execution |
+| 5 | **Resolver Staking** | Stake → earn fees from order execution |
 | 6 | **Plugin Economy** | Buy → access premium plugins |
-| 7 | **Revenue Share** | Lock veX18 → nhận chia doanh thu |
+| 7 | **Revenue Share** | Lock veX18 → receive revenue share |
 
-**Mỗi user mới = demand mới. Càng nhiều users, càng nhiều demand.**
+**Each new user = new demand. More users, more demand.**
 
 ---
 
-## #4: Doanh Thu Thực Bảo Chứng Giá Trị
+## #4: Real Revenue Underpins Value
 
-$X18 được bảo chứng bởi **doanh thu protocol thực**:
+$X18 is underpinned by **real protocol revenue**:
 
 ```
 Protocol Revenue
-├── 40% → Buy Back & Burn $X18    ← Giảm supply, tăng giá
-├── 30% → veX18 Revenue Share     ← Incentive lock, giảm sell
+├── 40% → Buy Back & Burn $X18    ← Reduce supply, increase price
+├── 30% → veX18 Revenue Share     ← Incentive lock, reduce sell
 ├── 20% → Treasury (DAO)          ← Fund growth
 └── 10% → Development             ← Build more features
 ```
@@ -96,41 +96,41 @@ Protocol Revenue
 | Moderate | $500M/day | **$29.2M** burned |
 | Optimistic | $2B/day | **$87.6M** burned |
 
-> Protocol buy back **hàng triệu USD worth $X18/năm** từ market rồi burn. Áp lực mua thực sự, liên tục.
+> Protocol buy back **millions of USD worth of $X18/year** from the market and burn. Real, continuous buying pressure.
 
 ---
 
-## #5: Node Sale Lock = Giảm Circulating Supply
+## #5: Node Sale Lock = Reduced Circulating Supply
 
 ### Double Scarcity Effect:
 
 **Effect 1: Token Lock**
-- ~9.2M $X18 bị LOCK ngay từ đầu = 51% total supply bị khóa
-- Chỉ còn ~49% circulating
+- ~9.2M $X18 LOCKED initially = 51% of total supply locked
+- Only ~49% circulating
 
 **Effect 2: Gradual Unlock = No Dump**
-- Token unlock dần qua mining 8-10%/tháng
-- Khi unlock xong → protocol đã hoạt động → demand utility vượt supply
+- Tokens unlock gradually through mining 8-10%/month
+- Once unlocked → protocol is operational → utility demand exceeds supply
 
 **Effect 3: Unsold = Permanent Burn**
-- Ví dụ: Bán 1,800/2,300 gói → 500 gói burn → ~2M tokens burn vĩnh viễn
-- Total supply: 18M → 16M = scarcity tăng +12.5%
+- Example: Sell 1,800/2,300 packages → 500 packages burn → ~2M tokens permanently burned
+- Total supply: 18M → 16M = scarcity increases +12.5%
 
 ---
 
-## #6: veX18 Lock-up = Giảm Sell Pressure
+## #6: veX18 Lock-up = Reduced Sell Pressure
 
 | Lock Duration | Voting Power | Revenue Share |
 |:---|:---:|:---:|
-| 6 tháng | 1.5x | 1.5x |
-| 12 tháng | 2x | 2x |
-| 24 tháng | 3x | 3x |
-| 48 tháng | 4x | 4x |
+| 6 months | 1.5x | 1.5x |
+| 12 months | 2x | 2x |
+| 24 months | 3x | 3x |
+| 48 months | 4x | 4x |
 
-> Lock 1,000 $X18 trong 48 tháng → 4x voting power + 4x revenue share. Incentive cực mạnh để **không bán**.
+> Lock 1,000 $X18 for 48 months → 4x voting power + 4x revenue share. Strong incentive to **not sell**.
 
-### Ước tính sau 2 năm:
-- Chỉ ~27% supply có thể trade (còn lại bị lock/burn/vesting)
+### Estimate after 2 years:
+- Only ~27% of supply can be traded (the rest is locked/burned/vesting)
 
 ---
 
@@ -143,24 +143,24 @@ More Users → More Volume → More Revenue
 → Price Appreciation → Attract More Users → (Loop)
 ```
 
-**Vòng lặp tự tăng cường** — mỗi user mới tăng value cho tất cả holders.
+**Self-reinforcing loop** — each new user increases value for all holders.
 
 ---
 
-## #8: Game Economy = Demand Mới
+## #8: Game Economy = New Demand
 
-- Players cần $X18 mua in-game items
-- Tournament prize pools bằng $X18
-- Game achievements unlock DEX perks (cần hold $X18)
-- NFT marketplace → trả bằng $X18
+- Players need $X18 to purchase in-game items
+- Tournament prize pools in $X18
+- Game achievements unlock DEX perks (require holding $X18)
+- NFT marketplace → paid in $X18
 
-> Game thu hút demographics mới — people who never used DeFi but love gaming.
+> Games attract new demographics — people who never used DeFi but love gaming.
 
 ---
 
-## Ước Tính Giá Trị Theo Market Cap
+## Estimated Value by Market Cap
 
-| Market Cap | Giá (18M supply) | Giá (10M supply*) |
+| Market Cap | Price (18M supply) | Price (10M supply*) |
 |:---|:---:|:---:|
 | $18M (Node Sale) | **$1.00** | $1.80 |
 | $90M | $5.00 | $9.00 |
@@ -168,10 +168,10 @@ More Users → More Volume → More Revenue
 | $500M | $27.78 | $50.00 |
 | $1B | $55.56 | $100.00 |
 
-*\*10M = sau burn + lock-up*
+*\*10M = after burn + lock-up*
 
-> ⚠️ **Disclaimer**: Các con số chỉ mang tính minh họa. Giá token phụ thuộc vào thị trường. Đây KHÔNG phải cam kết giá.
+> ⚠️ **Disclaimer**: Figures are illustrative only. Token price depends on the market. This is NOT a price commitment.
 
 ---
 
-> **Tiếp theo:** [Chiến Lược Bán Node →](node-sale-strategy.md)
+> **Next:** [Node Sale Strategy →](node-sale-strategy.md)

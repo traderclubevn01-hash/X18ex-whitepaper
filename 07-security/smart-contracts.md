@@ -1,11 +1,11 @@
 # Smart Contract Security
 
-## An Ninh Mã Nguồn — Ưu Tiên Hàng Đầu
+## Source Code Security — Top Priority
 
-### Nguyên Tắc Security-First
-1. **Audit before deploy** — Không code nào lên mainnet mà chưa audit
-2. **Defense in depth** — Nhiều lớp bảo vệ chồng lên nhau
-3. **Minimal attack surface** — Smart contracts tối giản, modular
+### Security-First Principles
+1. **Audit before deploy** — No code goes to mainnet without an audit
+2. **Defense in depth** — Multiple layers of protection stacked
+3. **Minimal attack surface** — Smart contracts are streamlined and modular
 4. **Transparency** — Open source, verifiable on-chain
 
 ---
@@ -26,12 +26,12 @@
 
 | Feature | Implementation |
 |:---|:---|
-| **Timelock** | 48h delay trên mọi upgrades |
-| **Multi-sig** | 3/5 → 5/9 multi-sig cho admin functions |
-| **Emergency Pause** | Circuit breaker khi phát hiện anomaly |
-| **Reentrancy Guard** | OpenZeppelin ReentrancyGuard trên mọi function |
-| **Access Control** | Role-based, không có God Keys |
-| **Formal Verification** | Mathematical proof cho critical paths |
+| **Timelock** | 48h delay on all upgrades |
+| **Multi-sig** | 3/5 → 5/9 multi-sig for admin functions |
+| **Emergency Pause** | Circuit breaker upon anomaly detection |
+| **Reentrancy Guard** | OpenZeppelin ReentrancyGuard on all functions |
+| **Access Control** | Role-based, no God Keys |
+| **Formal Verification** | Mathematical proof for critical paths |
 | **Flash Loan Guard** | Protection against flash loan exploits |
 
 ---
@@ -45,8 +45,8 @@
 | **Medium** (data leak, minor exploit) | Up to $10,000 |
 | **Low** (UI bug, info disclosure) | Up to $1,000 |
 
-Platform: Immunefi (hoặc tương đương)
+Platform: Immunefi (or equivalent)
 
 ---
 
-> **Tiếp theo:** [Operational Security →](operational-security.md)
+> **Next:** [Operational Security →](operational-security.md)

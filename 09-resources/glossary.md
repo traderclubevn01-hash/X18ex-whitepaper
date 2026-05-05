@@ -1,37 +1,37 @@
 # Glossary
 
-## Thuật Ngữ
+## Terminology
 
-| Thuật ngữ | Giải nghĩa |
+| Term | Explanation |
 |:---|:---|
-| **AMM** | Automated Market Maker — Tạo lập thị trường tự động |
-| **CLOB** | Central Limit Order Book — Sổ lệnh giới hạn trung tâm |
-| **Cross-margin** | Ký quỹ chéo — tất cả positions chia sẻ collateral |
-| **DAO** | Decentralized Autonomous Organization — Tổ chức tự trị phi tập trung |
-| **DCA** | Dollar-Cost Averaging — Bình quân giá theo thời gian |
-| **DEX** | Decentralized Exchange — Sàn giao dịch phi tập trung |
+| **AMM** | Automated Market Maker — Automated market creation |
+| **CLOB** | Central Limit Order Book — Central limit order book |
+| **Cross-margin** | Cross-margin — all positions share collateral |
+| **DAO** | Decentralized Autonomous Organization — Decentralized autonomous organization |
+| **DCA** | Dollar-Cost Averaging — Averaging price over time |
+| **DEX** | Decentralized Exchange — Decentralized exchange |
 | **EIP** | Ethereum Improvement Proposal |
-| **FDV** | Fully Diluted Valuation — Vốn hóa pha loãng hoàn toàn |
-| **Health Factor** | Chỉ số sức khỏe tài khoản (>1 = an toàn) |
-| **Hook** | Plugin extension point cho smart contract |
-| **Impermanent Loss** | Tổn thất tạm thời khi cung cấp thanh khoản |
-| **Intent** | Ý định giao dịch — user nêu mong muốn, protocol thực hiện |
-| **Liquidation** | Thanh lý — tự động đóng position khi margin không đủ |
-| **MEV** | Maximal Extractable Value — Giá trị khai thác tối đa |
-| **Multi-sig** | Ví đa chữ ký — cần nhiều key để ký giao dịch |
-| **Non-custodial** | Không giữ hộ — user tự quản lý private key |
-| **Oracle** | Nguồn dữ liệu giá ngoại vi |
-| **Perpetual** | Hợp đồng vĩnh viễn — derivatives không có ngày hết hạn |
-| **Resolver** | Bên thực hiện fill cho intent-based orders |
-| **RWA** | Real World Assets — Tài sản thực được token hóa |
-| **Slippage** | Trượt giá — chênh lệch giữa giá expected và actual |
-| **TGE** | Token Generation Event — Sự kiện tạo token |
-| **TVL** | Total Value Locked — Tổng giá trị bị khóa trong protocol |
+| **FDV** | Fully Diluted Valuation — Fully diluted market capitalization |
+| **Health Factor** | Account health index (>1 = safe) |
+| **Hook** | Plugin extension point for smart contract |
+| **Impermanent Loss** | Temporary loss when providing liquidity |
+| **Intent** | Trading intent — user states desire, protocol executes |
+| **Liquidation** | Liquidation — automatically closing position when margin is insufficient |
+| **MEV** | Maximal Extractable Value — Maximum extractable value |
+| **Multi-sig** | Multi-signature wallet — requires multiple keys to sign transactions |
+| **Non-custodial** | Non-custodial — user manages private key themselves |
+| **Oracle** | External price data source |
+| **Perpetual** | Perpetual contract — derivatives without expiration date |
+| **Resolver** | Entity executing fill for intent-based orders |
+| **RWA** | Real World Assets — Tokenized real assets |
+| **Slippage** | Price slippage — difference between expected and actual price |
+| **TGE** | Token Generation Event — Token creation event |
+| **TVL** | Total Value Locked — Total value locked in protocol |
 | **TWAP** | Time-Weighted Average Price |
-| **veX18** | Vote-escrowed X18 — X18 bị khóa để nhận voting power + rewards |
+| **veX18** | Vote-escrowed X18 — X18 locked to receive voting power + rewards |
 | **VWAP** | Volume-Weighted Average Price |
-| **XIP** | X18 Improvement Proposal — Đề xuất cải tiến X18 |
+| **XIP** | X18 Improvement Proposal — X18 improvement proposal |
 
 ---
 
-> **Tiếp theo:** [Brand Kit & Media →](brand-kit.md)
+> **Next:** [Brand Kit & Media →](brand-kit.md)

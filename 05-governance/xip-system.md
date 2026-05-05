@@ -1,16 +1,16 @@
 # XIP — X18 Improvement Proposals
 
-## Hệ Thống Đề Xuất Cải Tiến
+## Improvement Proposal System
 
-### Quy Trình XIP
+### XIP Process
 
 ```
 1. Draft → 2. Discussion (7 days) → 3. Voting (5 days) → 4. Execution
 ```
 
-### Loại XIP
+### XIP Types
 
-| Type | Ví dụ | Quorum |
+| Type | Example | Quorum |
 |:---|:---|:---:|
 | **XIP-T (Technical)** | Protocol upgrade, new chain support | 10% supply |
 | **XIP-E (Economic)** | Fee changes, burn rate adjustment | 15% supply |
@@ -24,4 +24,4 @@
 
 ---
 
-> **Tiếp theo:** [Progressive Decentralization →](decentralization.md)
+> **Next:** [Progressive Decentralization →](decentralization.md)

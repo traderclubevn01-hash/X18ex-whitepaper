@@ -1,102 +1,102 @@
-# Tầm Nhìn, Sứ Mệnh & Mục Tiêu
+# Vision, Mission & Objectives
 
-## Tuyên Ngôn
+## Declaration
 
-> *"Chúng tôi không xây dựng thêm một DEX nữa. Chúng tôi xây dựng **hạ tầng tài chính phi tập trung thông minh nhất thế giới** — nơi AI phục vụ con người, không phải ngược lại."*
+> *"We are not building just another DEX. We are building the **world's most intelligent decentralized financial infrastructure** — where AI serves humanity, not the other way around."*
 
 ---
 
-## 🔭 Tầm Nhìn (Vision)
+## 🔭 Vision
 
 ### The Intelligent DeFi OS
 
-X18ex không chỉ là một ứng dụng — mà là một **hệ điều hành tài chính phi tập trung** (Decentralized Financial Operating System).
+X18ex is not just an application — it is a **Decentralized Financial Operating System**.
 
-Tưởng tượng một tương lai nơi:
+Imagine a future where:
 
-- **Mọi tài sản** trên mọi blockchain đều có thể giao dịch từ một giao diện duy nhất
-- **AI** tự động tìm giá tốt nhất, bảo vệ khỏi MEV, cảnh báo rủi ro — 24/7, không mệt mỏi
-- **Bots thông minh** thực thi chiến lược của bạn ngay cả khi bạn ngủ
-- **Game** biến DeFi từ "đáng sợ" thành "thú vị" — ai cũng có thể tham gia
-- **Developers** có thể xây dựng và kiếm tiền từ plugins trên marketplace
-- **Không ai** phải tin tưởng bên thứ ba — tất cả minh bạch, on-chain, non-custodial
+- **Every asset** on every blockchain can be traded from a single interface
+- **AI** automatically finds the best prices, protects against MEV, and warns of risks — 24/7, tirelessly
+- **Smart bots** execute your strategies even while you sleep
+- **Games** transform DeFi from "intimidating" to "exciting" — anyone can participate
+- **Developers** can build and monetize plugins on the marketplace
+- **No one** has to trust a third party — everything is transparent, on-chain, non-custodial
 
-Đó là tầm nhìn của X18ex — và chúng tôi đang xây dựng nó từng bước một.
+This is the vision of X18ex — and we are building it step by step.
 
-### Tầm Nhìn 5 Năm
+### 5-Year Vision
 
 ```
 2026         2027          2028          2029          2030+
  │            │             │             │             │
- │ Nền tảng   │  DEX #1     │  DeFi OS    │  Global     │  Standard
- │ + Node     │  AI-Native  │  hoàn chỉnh │  Financial  │  tài chính
- │  Sale      │  + Game     │  + RWA      │  Infra      │  phi tập
- │            │             │             │             │  trung
+ │ Platform   │  DEX #1     │  Complete   │  Global     │  Financial
+ │ + Node     │  AI-Native  │  DeFi OS    │  Financial  │  Standard
+ │  Sale      │  + Game     │  + RWA      │  Infra      │  Infrastructure
+ │            │             │             │             │
  ▼            ▼             ▼             ▼             ▼
  50K users    500K users    2M users      10M users     50M+ users
 ```
 
 ---
 
-## 🎯 Sứ Mệnh (Mission)
+## 🎯 Mission
 
-### Bốn Trụ Cột Sứ Mệnh
+### Four Pillars of Mission
 
-### 1. DEMOCRATIZE — Dân Chủ Hóa Tài Chính
-**Mang công cụ giao dịch đẳng cấp quỹ đầu tư đến tay mọi người.**
+### 1. DEMOCRATIZE — Democratize Finance
+**Bring hedge fund-grade trading tools to everyone.**
 
-Hiện tại, để giao dịch hiệu quả bạn cần: kiến thức kỹ thuật sâu, vốn lớn, và truy cập vào công cụ đắt tiền. AI của X18ex sẽ là **"the great equalizer"** — san phẳng khoảng cách giữa whale và retail trader.
+Currently, effective trading requires: deep technical knowledge, substantial capital, and access to expensive tools. X18ex's AI will be **"the great equalizer"** — leveling the playing field between whales and retail traders.
 
-- Retail trader có AI Smart Routing giống hệt institutional
-- Beginner có AI Trading Assistant hướng dẫn từng bước
-- Nhỏ lẻ có same execution quality như large orders
+- Retail traders have AI Smart Routing identical to institutional
+- Beginners have AI Trading Assistant guiding them step by step
+- Small traders have the same execution quality as large orders
 
-### 2. UNIFY — Thống Nhất Trải Nghiệm
-**Kết thúc kỷ nguyên phân mảnh trong DeFi.**
+### 2. UNIFY — Unify Experience
+**End the era of fragmentation in DeFi.**
 
-Một nền tảng. Một tài khoản. Mọi chain. Mọi loại giao dịch. Mọi công cụ. Người dùng không bao giờ phải rời khỏi X18ex để hoàn thành bất kỳ chiến lược nào.
+One platform. One account. Every chain. Every type of transaction. Every tool. Users never have to leave X18ex to complete any strategy.
 
-- Spot + Futures + Lending trên cùng giao diện
-- ETH trên Ethereum → swap → USDC trên Solana = 1 click
-- Bot chạy trên sàn = không cần code, không cần server
+- Spot + Futures + Lending on the same interface
+- ETH on Ethereum → swap → USDC on Solana = 1 click
+- Bots run on the platform = no need for code, no need for servers
 
-### 3. PROTECT — Bảo Vệ Người Dùng
-**Đặt an toàn tài sản người dùng lên trước lợi nhuận protocol.**
+### 3. PROTECT — Protect Users
+**Prioritize user asset safety over protocol profit.**
 
-Hàng tỷ USD bị mất mỗi năm do MEV attacks, rug pulls, flash loan exploits. X18ex xây dựng nhiều lớp bảo vệ:
+Billions of USD are lost each year due to MEV attacks, rug pulls, flash loan exploits. X18ex builds multiple layers of protection:
 
-- **MEV Shield** — AI phát hiện và ngăn chặn front-running, sandwich attacks
-- **Liquidation Shield** — Dự đoán liquidation trước 15 phút, auto-protect
-- **Scam Detection** — AI phân tích smart contract trước khi swap
-- **Risk Guardian** — Real-time health monitoring cho mọi position
+- **MEV Shield** — AI detects and prevents front-running, sandwich attacks
+- **Liquidation Shield** — Predicts liquidation 15 minutes in advance, auto-protects
+- **Scam Detection** — AI analyzes smart contracts before swapping
+- **Risk Guardian** — Real-time health monitoring for every position
 
-### 4. EMPOWER — Trao Quyền Sở Hữu
-**Trao quyền sở hữu thực sự cho cộng đồng.**
+### 4. EMPOWER — Empower Ownership
+**Grant true ownership to the community.**
 
-X18ex không thuộc về team — mà thuộc về community. Từ Day 1, chúng tôi xây dựng hướng tới **full decentralization**:
+X18ex does not belong to the team — it belongs to the community. From Day 1, we are building towards **full decentralization**:
 
-- **Node holders** tham gia securing network và earning rewards
-- **X18 DAO** quyết định mọi thay đổi quan trọng
-- **Plugin developers** kiếm thu nhập từ ecosystem
-- **Open-source** core — ai cũng có thể audit, verify, contribute
+- **Node holders** participate in securing the network and earning rewards
+- **X18 DAO** decides all significant changes
+- **Plugin developers** earn income from the ecosystem
+- **Open-source** core — anyone can audit, verify, contribute
 
 ---
 
-## 🏆 Mục Tiêu Chiến Lược
+## 🏆 Strategic Objectives
 
-### Mục Tiêu Ngắn Hạn (2026)
+### Short-Term Objectives (2026)
 
-| Mục tiêu | KPI | Timeline |
+| Objective | KPI | Timeline |
 |:---|:---|:---|
-| Hoàn thành Node Sale | 2,300 gói bán hết | Q2-Q3 2026 |
-| Gọi vốn Seed Round | $2-5M secured | Q3 2026 |
-| Xây dựng core platform | Trading engine prototype | Q3-Q4 2026 |
+| Complete Node Sale | 2,300 packages sold out | Q2-Q3 2026 |
+| Secure Seed Round Funding | $2-5M secured | Q3 2026 |
+| Build core platform | Trading engine prototype | Q3-Q4 2026 |
 | Testnet launch | 10,000+ testers | Q4 2026 |
 | Community building | 50,000+ members | Q4 2026 |
 
-### Mục Tiêu Trung Hạn (2027)
+### Mid-Term Objectives (2027)
 
-| Mục tiêu | KPI | Timeline |
+| Objective | KPI | Timeline |
 |:---|:---|:---|
 | **Mainnet launch** | Live trading on 4+ chains | Q2 2027 |
 | Token listing | $X18 on DEX + CEX | Q2 2027 |
@@ -105,9 +105,9 @@ X18ex không thuộc về team — mà thuộc về community. Từ Day 1, chún
 | User adoption | 200,000+ users | Q4 2027 |
 | Trading volume | $1B+ cumulative | Q4 2027 |
 
-### Mục Tiêu Dài Hạn (2028+)
+### Long-Term Objectives (2028+)
 
-| Mục tiêu | KPI | Timeline |
+| Objective | KPI | Timeline |
 |:---|:---|:---|
 | Multi-chain dominance | 20+ chains | 2028 |
 | User scale | 1,000,000+ users | 2028 |
@@ -117,22 +117,22 @@ X18ex không thuộc về team — mà thuộc về community. Từ Day 1, chún
 
 ---
 
-## Nguyên Tắc Thiết Kế Bất Di Bất Dịch
+## Immutable Design Principles
 
-| # | Nguyên Tắc | Ý Nghĩa |
+| # | Principle | Meaning |
 |:---:|:---|:---|
-| 1 | **Intelligence First** | AI là core engine, không phải marketing wrapper |
-| 2 | **User Sovereignty** | Non-custodial luôn luôn — chúng tôi KHÔNG BAO GIỜ giữ key |
-| 3 | **Chain Agnostic** | Người dùng trade assets, không trade chains |
-| 4 | **Developer Centric** | API/SDK chuyên nghiệp, documentation đầy đủ, grants program |
-| 5 | **Progressive Decentralization** | Từ team-led → council → full DAO |
-| 6 | **Revenue Over Inflation** | Doanh thu thật từ fees, không in token để trả rewards |
+| 1 | **Intelligence First** | AI is the core engine, not a marketing wrapper |
+| 2 | **User Sovereignty** | Always non-custodial — we NEVER hold keys |
+| 3 | **Chain Agnostic** | Users trade assets, not chains |
+| 4 | **Developer Centric** | Professional API/SDK, comprehensive documentation, grants program |
+| 5 | **Progressive Decentralization** | From team-led → council → full DAO |
+| 6 | **Revenue Over Inflation** | Real revenue from fees, not printing tokens to pay rewards |
 | 7 | **Radical Transparency** | On-chain metrics, open-source core, public audits |
-| 8 | **Fun Over Fear** | Game + education biến DeFi từ "đáng sợ" → "thú vị" |
+| 8 | **Fun Over Fear** | Game + education transform DeFi from "intimidating" → "exciting" |
 
 ---
 
-## Landscape Cạnh Tranh
+## Competitive Landscape
 
 ```
                     AI-Native
@@ -155,8 +155,8 @@ X18ex không thuộc về team — mà thuộc về community. Từ Day 1, chún
                   Traditional
 ```
 
-**X18ex chiếm vị trí mà không ai khác đang đứng**: góc phần tư phía trên bên phải — **All-in-One + AI-Native + Game-Integrated**. Đây là blue ocean strategy — không cạnh tranh trực diện mà tạo ra category mới.
+**X18ex occupies a position where no one else stands**: the upper right quadrant — **All-in-One + AI-Native + Game-Integrated**. This is a blue ocean strategy — not competing directly but creating a new category.
 
 ---
 
-> **Tiếp theo:** [Why "X18" — Ý Nghĩa Cái Tên →](why-x18.md)
+> **Next:** [Why "X18" — The Meaning Behind the Name →](why-x18.md)

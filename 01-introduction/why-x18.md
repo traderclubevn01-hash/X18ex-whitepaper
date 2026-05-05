@@ -1,65 +1,65 @@
 # Why "X18"
 
-## Ý Nghĩa Đằng Sau Cái Tên
+## The Meaning Behind the Name
 
 ### X — The Crossroads of Everything
 
-**X** là biểu tượng phổ quát của **sự giao thoa** (intersection):
+**X** is the universal symbol of **intersection**:
 
-- **Cross-chain** — Giao thoa giữa các blockchain
-- **Cross-asset** — Giao thoa giữa spot, futures, lending
-- **Cross-border** — Giao thoa không biên giới
-- **eXchange** — Nền tảng giao dịch
-- **eXponential** — Tăng trưởng theo cấp số nhân
+- **Cross-chain** — Intersection between blockchains
+- **Cross-asset** — Intersection between spot, futures, lending
+- **Cross-border** — Borderless intersection
+- **eXchange** — Trading platform
+- **eXponential** — Exponential growth
 
-Ký tự X cũng đại diện cho **sự nhân lên** (multiplication) — nhân giá trị cho holder, nhân hiệu suất cho trader, nhân đổi mới cho developer.
+The letter X also represents **multiplication** — multiplying value for holders, multiplying performance for traders, multiplying innovation for developers.
 
 ---
 
 ### 18 — The Sacred Number
 
-| Văn hóa | Ý nghĩa của 18 |
+| Culture | Meaning of 18 |
 |:---|:---|
-| **Hebrew** | חי (Chai) = "Sự sống" — số 18 tượng trưng cho sự sống và sinh lực |
-| **Chinese** | Gần âm với 要发 (yào fā) = "sẽ phát đạt" — may mắn và thịnh vượng |
-| **Mathematics** | 18 = 2 × 3 × 3 — sự cân bằng hoàn hảo giữa stability và growth |
-| **Coming of Age** | 18 tuổi — tuổi trưởng thành, tự chủ, tự quyết |
+| **Hebrew** | חי (Chai) = "Life" — the number 18 symbolizes life and vitality |
+| **Chinese** | Phonetically similar to 要发 (yào fā) = "will prosper" — luck and prosperity |
+| **Mathematics** | 18 = 2 × 3 × 3 — the perfect balance between stability and growth |
+| **Coming of Age** | 18 years old — age of maturity, independence, self-determination |
 
-**18 triệu tokens** — mỗi token là một đơn vị giá trị thực sự, không phải con số bị pha loãng trong hàng tỷ tokens vô nghĩa.
+**18 million tokens** — each token is a true unit of value, not a diluted figure among billions of meaningless tokens.
 
 ---
 
 ### ex — The Exchange Revolution
 
-**ex** = Exchange, nhưng cũng là:
+**ex** = Exchange, but also:
 
-- **ex**perience — Trải nghiệm vượt trội
-- **ex**cellence — Sự xuất sắc trong công nghệ
-- **ex**pansion — Mở rộng không giới hạn
-- **ex**ecution — Thực thi hoàn hảo
-
----
-
-### Kết Hợp: X18ex
-
-> **X18ex** = Sàn giao dịch nơi mọi chain giao thoa, mỗi token mang giá trị sự sống, và trải nghiệm giao dịch đạt đến sự xuất sắc.
-
-Tên ngắn gọn, dễ nhớ, mạnh mẽ — và mang theo câu chuyện sâu sắc ở mọi tầng ý nghĩa.
+- **ex**perience — Superior experience
+- **ex**cellence — Excellence in technology
+- **ex**pansion — Unlimited expansion
+- **ex**ecution — Perfect execution
 
 ---
 
-## Triết Lý "18 Protocol"
+### Combination: X18ex
 
-Chúng tôi áp dụng con số 18 như một triết lý xuyên suốt dự án:
+> **X18ex** = The exchange where every chain intersects, each token embodies the value of life, and the trading experience reaches excellence.
 
-| Nguyên tắc | Áp dụng |
+A short, memorable, powerful name — carrying a profound story at every level of meaning.
+
+---
+
+## The "18 Protocol" Philosophy
+
+We apply the number 18 as a guiding philosophy throughout the project:
+
+| Principle | Application |
 |:---|:---|
-| **18M Total Supply** | Không bao giờ mint thêm — scarcity tuyệt đối |
-| **Target: 8,888,888** | Burn đến khi còn ~8.88M — prosperity number |
-| **18% APY Staking Cap** | Lợi nhuận bền vững, không hyperinflation |
-| **18 Core Partners** | Giới hạn strategic partners, chất lượng hơn số lượng |
-| **18-Month Cliff** | Team tokens khóa 18 tháng — cam kết dài hạn |
+| **18M Total Supply** | Never mint more — absolute scarcity |
+| **Target: 8,888,888** | Burn down to ~8.88M — prosperity number |
+| **18% APY Staking Cap** | Sustainable returns, no hyperinflation |
+| **18 Core Partners** | Limit strategic partners, quality over quantity |
+| **18-Month Cliff** | Team tokens locked for 18 months — long-term commitment |
 
 ---
 
-> **Tiếp theo:** [Architecture Overview →](../02-technology/architecture-overview.md)
+> **Next:** [Architecture Overview →](../02-technology/architecture-overview.md)

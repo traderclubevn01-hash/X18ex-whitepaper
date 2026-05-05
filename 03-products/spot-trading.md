@@ -1,49 +1,49 @@
 # Spot Trading
 
-## Giao Dịch Spot Đẳng Cấp Chuyên Nghiệp
+## Professional-Grade Spot Trading
 
-X18ex cung cấp trải nghiệm spot trading ngang hàng với sàn tập trung hàng đầu, nhưng hoàn toàn phi tập trung và non-custodial.
+X18ex offers a peer-level spot trading experience with leading centralized exchanges, yet it is fully decentralized and non-custodial.
 
 ---
 
-## Tính Năng Spot Trading
+## Spot Trading Features
 
-### Giao Diện Trading Terminal
+### Trading Terminal Interface
 - **TradingView Charts** — Full technical analysis toolkit
 - **Order Book Depth** — Real-time visualization
-- **Trade History** — Lịch sử giao dịch chi tiết
-- **Portfolio View** — Tổng quan tài sản cross-chain
-- **Watchlist** — Theo dõi markets yêu thích
-- **Dark/Light Mode** — Tùy chỉnh giao diện
+- **Trade History** — Detailed transaction history
+- **Portfolio View** — Cross-chain asset overview
+- **Watchlist** — Track favorite markets
+- **Dark/Light Mode** — Interface customization
 
-### Loại Giao Dịch
-| Loại | Mô tả |
+### Trade Types
+| Type | Description |
 |:---|:---|
-| **Direct Swap** | Swap tức thời giữa 2 tokens |
-| **Limit Order** | Đặt giá mong muốn |
-| **DCA (Dollar Cost Average)** | Mua tự động theo lịch |
-| **Range Order** | Tương tự limit nhưng earn fees khi chờ |
+| **Direct Swap** | Instant swap between 2 tokens |
+| **Limit Order** | Set desired price |
+| **DCA (Dollar Cost Average)** | Automated scheduled buying |
+| **Range Order** | Similar to limit but earn fees while waiting |
 
 ### Multi-Chain Swap
-- Swap ETH (Ethereum) → SOL (Solana) trong **1 giao dịch**
-- AI tự tìm đường tối ưu cross-chain
-- Không cần bridge thủ công
-- Atomic settlement — nhận hoặc refund, không bao giờ mất giữa chừng
+- Swap ETH (Ethereum) → SOL (Solana) in **1 transaction**
+- AI optimizes cross-chain routing
+- No manual bridging required
+- Atomic settlement — receive or refund, never lost midway
 
 ---
 
 ## Liquidity Provision
 
 ### Concentrated Liquidity Pools
-- Providers chọn price range để tập trung thanh khoản
-- Capital efficiency cao hơn **100x** so với traditional AMM
+- Providers select price range to concentrate liquidity
+- Capital efficiency over **100x** compared to traditional AMM
 - Auto-compound rewards
 
 ### Passive Liquidity Vaults
-- "Set and forget" — deposit và earn yield tự động
-- AI auto-rebalance range theo market conditions
-- Thích hợp cho beginners
+- "Set and forget" — deposit and earn yield automatically
+- AI auto-rebalances range according to market conditions
+- Suitable for beginners
 
 ---
 
-> **Tiếp theo:** [Perpetuals & Derivatives →](perpetuals.md)
+> **Next:** [Perpetuals & Derivatives →](perpetuals.md)

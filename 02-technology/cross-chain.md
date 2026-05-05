@@ -1,8 +1,8 @@
 # Cross-Chain Infrastructure
 
-## Chain Abstraction: Người Dùng Không Cần Biết Chain
+## Chain Abstraction: Users Need Not Know the Chain
 
-X18ex triển khai kiến trúc **Chain Abstraction** — người dùng chỉ thấy assets và markets, không cần quan tâm chúng nằm trên chain nào.
+X18ex implements a **Chain Abstraction** architecture — users only see assets and markets, without needing to know which chain they reside on.
 
 ---
 
@@ -12,9 +12,9 @@ X18ex triển khai kiến trúc **Chain Abstraction** — người dùng chỉ t
 ┌──────────────────────────────────────────────────────┐
 │                  USER EXPERIENCE                     │
 │                                                      │
-│  "Swap 10 ETH → USDC at best price"                │
-│  (User doesn't know ETH is on Arbitrum,             │
-│   best USDC pool is on Base)                        │
+│  "Swap 10 ETH → USDC at best price"                  │
+│  (User doesn't know ETH is on Arbitrum,              │
+│   best USDC pool is on Base)                         │
 │                                                      │
 └─────────────────────┬────────────────────────────────┘
                       │
@@ -58,9 +58,9 @@ X18ex triển khai kiến trúc **Chain Abstraction** — người dùng chỉ t
 
 ## Supported Chains
 
-### Ngày 1 — Launch Chains
+### Day 1 — Launch Chains
 
-| Chain | Type | TVL | Lý do |
+| Chain | Type | TVL | Reason |
 |:---|:---|:---|:---|
 | **Ethereum** | L1 | $100B+ | Liquidity king, institutional trust |
 | **Arbitrum** | L2 | $15B+ | DeFi hub, low gas, fast |
@@ -68,43 +68,43 @@ X18ex triển khai kiến trúc **Chain Abstraction** — người dùng chỉ t
 | **BSC** | L1 | $8B+ | Massive volume, low cost |
 | **Polygon** | L2 | $5B+ | Enterprise adoption |
 
-### Tháng 6-12 — Expansion
+### Month 6-12 — Expansion
 
-| Chain | Type | Lý do |
+| Chain | Type | Reason |
 |:---|:---|:---|
 | **Solana** | L1 (non-EVM) | Speed champion, growing DeFi |
 | **Avalanche** | L1 | Institutional DeFi, subnets |
 | **Optimism** | L2 | Superchain ecosystem |
 
-### Năm 2 — Full Coverage
+### Year 2 — Full Coverage
 Sei, Mantle, Blast, zkSync, Scroll, Linea, Aptos, Sui
 
 ---
 
 ## Unified Liquidity Pool
 
-Thay vì mỗi chain có liquidity riêng biệt, X18ex tạo **Unified Liquidity Layer**:
+Instead of each chain having separate liquidity, X18ex creates a **Unified Liquidity Layer**:
 
 ```
 Traditional:
   ETH/USDC on Arbitrum: $50M liquidity
   ETH/USDC on Base:     $20M liquidity
   ETH/USDC on BSC:      $30M liquidity
-  → User on Arbitrum chỉ access $50M
+  → User on Arbitrum only accesses $50M
 
 X18ex Unified:
   ETH/USDC across all chains: $100M unified liquidity
-  → User on ANY chain access toàn bộ $100M
-  → Slippage giảm 3-5x cho large trades
+  → User on ANY chain accesses the entire $100M
+  → Slippage reduced 3-5x for large trades
 ```
 
 ---
 
 ## Security Model
 
-### Không Dùng Traditional Bridge
+### No Use of Traditional Bridge
 
-X18ex **KHÔNG** dùng lock-and-mint bridge truyền thống (nguồn gốc của >$2.5B bị hack). Thay vào đó:
+X18ex **DOES NOT** use traditional lock-and-mint bridges (source of >$2.5B hacks). Instead:
 
 | Traditional Bridge | X18 Cross-Chain |
 |:---|:---|
@@ -116,10 +116,10 @@ X18ex **KHÔNG** dùng lock-and-mint bridge truyền thống (nguồn gốc củ
 
 ### Fallback & Safety
 
-- **Timeout Protection**: Nếu fill không hoàn tất trong 10 phút → auto-refund
-- **Resolver Insurance**: Resolvers stake $X18 → slashed nếu failed fill
-- **Multi-sig Escrow**: Escrow contracts được audit, multi-sig upgradeable
+- **Timeout Protection**: If fill is not completed within 10 minutes → auto-refund
+- **Resolver Insurance**: Resolvers stake $X18 → slashed if failed fill
+- **Multi-sig Escrow**: Escrow contracts are audited, multi-sig upgradeable
 
 ---
 
-> **Tiếp theo:** [MEV Protection & Security →](mev-protection.md)
+> **Next:** [MEV Protection & Security →](mev-protection.md)

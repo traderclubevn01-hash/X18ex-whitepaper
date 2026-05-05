@@ -1,14 +1,14 @@
 # X18 Bot Platform
 
-## Bot-First Architecture: Xây Dựng Cho Developer Từ Ngày Đầu
+## Bot-First Architecture: Built for Developers from Day One
 
-Hơn **60% volume** trên các DEX hàng đầu đến từ bots và automated strategies. X18ex không coi bot integration là tính năng phụ — mà là **trụ cột cốt lõi** của nền tảng.
+Over **60% of volume** on leading DEXs comes from bots and automated strategies. X18ex does not consider bot integration as a secondary feature — it is a **core pillar** of the platform.
 
 ---
 
 ## Developer Portal
 
-### Tổng Quan
+### Overview
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                   X18 DEVELOPER PORTAL                      │
@@ -84,14 +84,14 @@ Events: `order.filled`, `order.cancelled`, `position.liquidated`, `position.warn
 
 ## SDKs
 
-| Ngôn ngữ | Status | Use case chính |
+| Language | Status | Primary Use Case |
 |:---|:---|:---|
 | **Python** | ✅ Production | Quant trading, data analysis, ML strategies |
 | **TypeScript/JavaScript** | ✅ Production | Web bots, dApp integrations |
 | **Rust** | ✅ Production | High-frequency trading, low-latency |
 | **Go** | 🔄 Beta | Microservices, backend integrations |
 
-### Ví Dụ Code (Python SDK)
+### Code Example (Python SDK)
 ```python
 from x18ex import Client
 
@@ -102,7 +102,7 @@ route = client.ai_route(
     from_token="ETH",
     to_token="USDC",
     amount=10.0,
-    chain="auto"  # AI chọn chain tối ưu
+    chain="auto"  # AI selects optimal chain
 )
 print(f"Best price: {route.price}, savings: {route.savings_pct}%")
 
@@ -117,18 +117,18 @@ print(f"Tx hash: {tx.hash}")
 
 ### Pre-built Strategies (1-click deploy)
 
-| Strategy | Mô tả | Risk |
+| Strategy | Description | Risk |
 |:---|:---|:---:|
-| **Grid Trading** | Mua thấp bán cao trong range | 🟢 Low |
-| **DCA Bot** | Dollar-cost averaging tự động | 🟢 Low |
-| **TWAP Executor** | Chia lệnh lớn theo thời gian | 🟢 Low |
+| **Grid Trading** | Buy low, sell high within a range | 🟢 Low |
+| **DCA Bot** | Automatic dollar-cost averaging | 🟢 Low |
+| **TWAP Executor** | Split large orders over time | 🟢 Low |
 | **Arbitrage Scanner** | Cross-DEX/cross-chain price differences | 🟡 Medium |
-| **Momentum Rider** | Follow trend dựa trên indicators | 🟡 Medium |
-| **Sniper Bot** | Early entry vào new listings | 🔴 High |
-| **Liquidation Hunter** | Tìm và thực hiện liquidation opportunities | 🔴 High |
+| **Momentum Rider** | Follow trend based on indicators | 🟡 Medium |
+| **Sniper Bot** | Early entry into new listings | 🔴 High |
+| **Liquidation Hunter** | Identify and execute liquidation opportunities | 🔴 High |
 
 ### Custom Strategy Builder
-- **X18Script** — Domain-Specific Language đơn giản:
+- **X18Script** — Simple Domain-Specific Language:
 ```
 WHEN price("ETH/USDC") crosses_above SMA(50)
 AND volume > avg_volume * 2
@@ -140,21 +140,21 @@ THEN buy("ETH/USDC", amount=portfolio.balance * 0.1, type="limit", offset=-0.5%)
 
 ## Strategy Marketplace
 
-### Mô Hình Hoạt Động
-- Developers publish strategies lên marketplace
-- Users subscribe (miễn phí hoặc trả phí bằng $X18)
+### Operating Model
+- Developers publish strategies on the marketplace
+- Users subscribe (free or paid in $X18)
 - Revenue sharing: **70% creator / 20% protocol / 10% burn**
-- Performance tracking transparent: PnL, drawdown, Sharpe ratio
+- Transparent performance tracking: PnL, drawdown, Sharpe ratio
 
 ### Backtesting Engine
-- Test strategies trên **3 năm historical data**
+- Test strategies on **3 years of historical data**
 - Simulate gas costs, slippage, MEV impact
-- Monte Carlo simulations cho risk assessment
+- Monte Carlo simulations for risk assessment
 
 ### Paper Trading Mode
 - Real-time market data, zero real money
-- Test strategies trước khi deploy live
-- Leaderboard cho paper trading
+- Test strategies before live deployment
+- Leaderboard for paper trading
 
 ---
 
@@ -175,4 +175,4 @@ THEN buy("ETH/USDC", amount=portfolio.balance * 0.1, type="limit", offset=-0.5%)
 
 ---
 
-> **Tiếp theo:** [AI Trading Assistant →](ai-assistant.md)
+> **Next:** [AI Trading Assistant →](ai-assistant.md)

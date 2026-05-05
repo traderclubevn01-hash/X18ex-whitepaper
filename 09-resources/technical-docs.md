@@ -1,6 +1,6 @@
 # Technical Documentation
 
-## Tài Liệu Kỹ Thuật
+## Technical Documentation
 
 ### Smart Contracts
 - [GitHub Repository](https://github.com/x18ex) *(coming soon)*
@@ -30,4 +30,4 @@
 
 ---
 
-> **Tiếp theo:** [Glossary →](glossary.md)
+> **Next:** [Glossary →](glossary.md)

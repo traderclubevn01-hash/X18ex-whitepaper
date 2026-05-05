@@ -1,26 +1,26 @@
 # Milestones Tracker
 
-## Theo Dõi Tiến Độ Thời Gian Thực
+## Real-Time Progress Tracking
 
-> 📅 Cập nhật lần cuối: **Tháng 5, 2026**
+> 📅 Last updated: **May, 2026**
 
 ---
 
-## Phase 0: Genesis — ĐANG THỰC HIỆN
+## Phase 0: Genesis — IN PROGRESS
 
 | Milestone | Target | Status |
 |:---|:---|:---:|
 | Market research & analysis | Q2 2026 | ✅ Done |
 | Whitepaper v1.0 | Q2 2026 | ✅ Done |
-| Thiết kế kiến trúc 5 tầng | Q2 2026 | ✅ Done |
+| 5-layer architecture design | Q2 2026 | ✅ Done |
 | Brand identity X18ex | Q2 2026 | ✅ Done |
-| **Chương trình bán Node** | Q2-Q3 2026 | 🔄 In Progress |
-| Gọi vốn (Seed round) | Q3 2026 | 🔄 In Progress |
-| Xây dựng nền tảng cốt lõi | Q3 2026 | 🔄 In Progress |
+| **Node Sale Program** | Q2-Q3 2026 | 🔄 In Progress |
+| Fundraising (Seed round) | Q3 2026 | 🔄 In Progress |
+| Core platform development | Q3 2026 | 🔄 In Progress |
 | Core team assembly | Q3 2026 | 🔄 In Progress |
 | Website & community launch | Q3 2026 | ⏳ Upcoming |
 | Node Dashboard live | Q3 2026 | ⏳ Upcoming |
-| Node chưa bán → BURN | Sau 3 tháng | ⏳ Upcoming |
+| Unsold Nodes → BURN | After 3 months | ⏳ Upcoming |
 
 ## Phase 1: Ignition
 
@@ -63,6 +63,6 @@
 
 ---
 
-*Tracker được cập nhật hàng tháng.*
+*Tracker is updated monthly.*
 
-> **Tiếp theo:** [Smart Contract Security →](../07-security/smart-contracts.md)
+> **Next:** [Smart Contract Security →](../07-security/smart-contracts.md)

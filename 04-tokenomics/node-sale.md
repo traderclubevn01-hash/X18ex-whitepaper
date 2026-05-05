@@ -1,25 +1,25 @@
-# Chương Trình Bán Node Ban Đầu
+# Initial Node Sale Program
 
-## X18 Node Sale — Gia Tăng Tài Sản Từ Ngày Đầu
+## X18 Node Sale — Asset Growth from Day One
 
-Chương trình bán Node ban đầu cho phép người dùng **đầu tư sớm** vào hệ sinh thái X18ex, nhận quyền lợi đặc biệt, và bắt đầu mining $X18 tokens trước khi nền tảng chính thức ra mắt.
+The initial Node sale program allows users to **invest early** in the X18ex ecosystem, receive exclusive benefits, and start mining $X18 tokens before the platform officially launches.
 
 ---
 
-## Tổng Quan Chương Trình
+## Program Overview
 
-| Thông tin | Chi tiết |
+| Information | Details |
 |:---|:---|
-| **Thời gian bán** | **3 tháng** (đồng hồ đếm ngược trong dashboard) |
-| **Giá tham chiếu $X18** | **$1.00 / token** |
-| **Loại Node** | 3 gói: $1K, $5K, $10K |
-| **Tổng số Node** | **2,300 gói** (hữu hạn, không phát sinh thêm) |
-| **Sau khi hết hạn** | Node dừng hoạt động, không có gói nào phát sinh |
-| **Node chưa bán hết** | **Đốt hoàn toàn** (burn) — tăng scarcity |
+| **Sale Duration** | **3 months** (countdown clock in dashboard) |
+| **$X18 Reference Price** | **$1.00 / token** |
+| **Node Types** | 3 packages: $1K, $5K, $10K |
+| **Total Nodes** | **2,300 packages** (finite, no additional issuance) |
+| **After Expiry** | Nodes cease operation, no additional packages issued |
+| **Unsold Nodes** | **Completely Burned** — increases scarcity |
 
 ---
 
-## Các Gói Node
+## Node Packages
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════╗
@@ -27,37 +27,37 @@ Chương trình bán Node ban đầu cho phép người dùng **đầu tư sớm
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║                                                                        ║
 ║  ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────┐ ║
-║  │    🥉 GÓI $1K      │  │    🥈 GÓI $5K       │  │   🥇 GÓI $10K  │ ║
+║  │    🥉 $1K PACKAGE   │  │    🥈 $5K PACKAGE   │  │   🥇 $10K PACKAGE │ ║
 ║  │                     │  │                      │  │                 │ ║
-║  │  Giá: $1,000        │  │  Giá: $5,000         │  │  Giá: $10,000  │ ║
-║  │  X18 Token: 1,000   │  │  X18 Token: 5,000    │  │  X18 Token:    │ ║
-║  │                     │  │                      │  │  10,000        │ ║
-║  │  Số lượng: 1,000 gói│  │  Số lượng: 1,000 gói │  │  Số lượng:     │ ║
-║  │                     │  │                      │  │  300 gói       │ ║
-║  │  Quyền lợi: V1     │  │  Quyền lợi: V2      │  │  Quyền lợi: V3 │ ║
-║  │  Mining: 8%/tháng   │  │  Mining: 9%/tháng    │  │  Mining:        │ ║
-║  │  Bonus: 0%          │  │  Bonus: 5%           │  │  10%/tháng     │ ║
-║  │                     │  │                      │  │  Bonus: 10%    │ ║
+║  │  Price: $1,000      │  │  Price: $5,000       │  │  Price: $10,000 │ ║
+║  │  X18 Tokens: 1,000  │  │  X18 Tokens: 5,000   │  │  X18 Tokens:    │ ║
+║  │                     │  │                      │  │  10,000         │ ║
+║  │  Quantity: 1,000    │  │  Quantity: 1,000     │  │  Quantity:      │ ║
+║  │  packages           │  │  packages            │  │  300 packages   │ ║
+║  │  Benefits: V1       │  │  Benefits: V2        │  │  Benefits: V3   │ ║
+║  │  Mining: 8%/month   │  │  Mining: 9%/month    │  │  Mining:        │ ║
+║  │  Bonus: 0%          │  │  Bonus: 5%           │  │  10%/month      │ ║
+║  │                     │  │                      │  │  Bonus: 10%     │ ║
 ║  └─────────────────────┘  └─────────────────────┘  └─────────────────┘ ║
 ║                                                                        ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
-### Bảng Chi Tiết Quyền Lợi
+### Detailed Benefits Table
 
-| Thông tin | 🥉 Gói $1K | 🥈 Gói $5K | 🥇 Gói $10K |
+| Information | 🥉 $1K Package | 🥈 $5K Package | 🥇 $10K Package |
 |:---|:---:|:---:|:---:|
-| **Giá mua** | $1,000 | $5,000 | $10,000 |
-| **$X18 Token nhận được** | 1,000 | 5,000 | 10,000 |
-| **Số lượng gói** | 1,000 gói | 1,000 gói | 300 gói |
-| **Cấp quyền lợi** | V1 | V2 | V3 |
-| **Mining rate** | 8% / tháng | 9% / tháng | 10% / tháng |
-| **Bonus khi mua** | 0% | +5% (+250 X18) | +10% (+1,000 X18) |
-| **Tổng X18 nhận** | 1,000 | **5,250** | **11,000** |
+| **Purchase Price** | $1,000 | $5,000 | $10,000 |
+| **$X18 Tokens Received** | 1,000 | 5,000 | 10,000 |
+| **Package Quantity** | 1,000 packages | 1,000 packages | 300 packages |
+| **Benefit Level** | V1 | V2 | V3 |
+| **Mining Rate** | 8% / month | 9% / month | 10% / month |
+| **Purchase Bonus** | 0% | +5% (+250 X18) | +10% (+1,000 X18) |
+| **Total X18 Received** | 1,000 | **5,250** | **11,000** |
 
 ---
 
-## Cơ Chế Hoạt Động
+## Operational Mechanism
 
 ### Smart Contract: Trustless Node Manager
 To guarantee transparency, the entire Node Sale is governed by an immutable smart contract. Below is a simplified snippet of the core logic:
@@ -99,78 +99,78 @@ contract X18NodeManager {
 }
 ```
 
-### 1. Mua Node
+### 1. Node Purchase
 ```
-User mua gói Node ($1K / $5K / $10K)
+User purchases Node package ($1K / $5K / $10K)
          │
          ▼
-X18 Tokens được phân bổ cho user
+X18 Tokens allocated to user
          │
          ▼
-Toàn bộ tokens bị LOCK ❌
-(Không thể rút, bán, hay chuyển)
+All tokens are LOCKED ❌
+(Cannot withdraw, sell, or transfer)
          │
          ▼
-Mining bắt đầu tự động ⛏️
+Mining starts automatically ⛏️
 ```
 
 ### 2. Mining & Unlock
 ```
-Mỗi tháng, user nhận mining rewards:
+Each month, user receives mining rewards:
          │
-         ├── Gói $1K:  8% × 1,000 =   80 X18/tháng
-         ├── Gói $5K:  9% × 5,250 =  472.5 X18/tháng
-         └── Gói $10K: 10% × 11,000 = 1,100 X18/tháng
+         ├── $1K Package:  8% × 1,000 =   80 X18/month
+         ├── $5K Package:  9% × 5,250 =  472.5 X18/month
+         └── $10K Package: 10% × 11,000 = 1,100 X18/month
          │
          ▼
-Rewards được unlock và có thể:
-  ✅ Giữ (HODL)
-  ✅ Trade trên X18 DEX
-  ✅ Stake để earn thêm
-  ✅ Sử dụng trong X18 Game
+Rewards are unlocked and can be:
+  ✅ Held (HODL)
+  ✅ Traded on X18 DEX
+  ✅ Staked to earn more
+  ✅ Used in X18 Game
 ```
 
 ### 3. Token Lock & Release
-> **Quan trọng**: Toàn bộ $X18 Token khi mua gói ban đầu sẽ bị **LOCK** và chỉ trả % mỗi tháng thông qua cơ chế mining. Đây là thiết kế nhằm:
-> - **Bảo vệ giá token** — Tránh dump ngay sau khi mua
-> - **Cam kết dài hạn** — Incentivize holders giữ và tham gia ecosystem
-> - **Phân phối đều** — Token được unlock dần, không gây áp lực sell
+> **Important**: All $X18 Tokens purchased in the initial package will be **LOCKED** and only released monthly through the mining mechanism. This design aims to:
+> - **Protect token price** — Prevent dumping immediately after purchase
+> - **Long-term commitment** — Incentivize holders to retain and engage with the ecosystem
+> - **Even distribution** — Tokens are gradually unlocked, avoiding sell pressure
 
 ---
 
-## Đồng Hồ Đếm Ngược
+## Countdown Clock
 
-Chương trình bán Node có **đồng hồ đếm ngược** hiển thị trong dashboard mỗi user:
+The Node sale program features a **countdown clock** displayed in each user's dashboard:
 
 ```
 ╔═══════════════════════════════════════════════════════╗
 ║              ⏱️ NODE SALE COUNTDOWN                   ║
 ╠═══════════════════════════════════════════════════════╣
 ║                                                       ║
-║              67 NGÀY : 14 GIỜ : 32 PHÚT              ║
+║              67 DAYS : 14 HOURS : 32 MINUTES          ║
 ║                                                       ║
 ║  ┌─────────────────────────────────────────────────┐  ║
-║  │ Gói $1K   ████████████░░░░░░  680/1,000 đã bán │  ║
-║  │ Gói $5K   ██████████████░░░░  720/1,000 đã bán │  ║
-║  │ Gói $10K  █████████████████░  255/300 đã bán   │  ║
+║  │ $1K Package   ████████████░░░░░░  680/1,000 sold │  ║
+║  │ $5K Package   ██████████████░░░░  720/1,000 sold │  ║
+║  │ $10K Package  █████████████████░  255/300 sold   │  ║
 ║  └─────────────────────────────────────────────────┘  ║
 ║                                                       ║
-║  📊 Tổng đã bán: 1,655 / 2,300 (71.9%)               ║
+║  📊 Total sold: 1,655 / 2,300 (71.9%)                 ║
 ║                                                       ║
-║  🔥 Node chưa bán sau 3 tháng → BURN vĩnh viễn       ║
+║  🔥 Unsold Nodes after 3 months → Permanently BURNED  ║
 ║                                                       ║
-║            [ Mua Node Ngay ]                          ║
+║            [ Buy Node Now ]                           ║
 ╚═══════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## Quyền Lợi Theo Cấp (V1, V2, V3)
+## Benefit Levels (V1, V2, V3)
 
-| Quyền lợi | V1 (Gói $1K) | V2 (Gói $5K) | V3 (Gói $10K) |
+| Benefits | V1 ($1K Package) | V2 ($5K Package) | V3 ($10K Package) |
 |:---|:---:|:---:|:---:|
 | Mining $X18 monthly | ✅ 8% | ✅ 9% | ✅ 10% |
-| Fee discount trên DEX | 10% | 25% | 40% |
+| Fee discount on DEX | 10% | 25% | 40% |
 | AI Premium access | ❌ | ✅ Basic | ✅ Full |
 | Bot API Pro tier | ❌ | ✅ | ✅ |
 | X18 Game VIP | ❌ | ✅ Silver | ✅ Gold |
@@ -182,58 +182,58 @@ Chương trình bán Node có **đồng hồ đếm ngược** hiển thị tron
 
 ---
 
-## Cơ Chế Đốt Node Chưa Bán
+## Unsold Node Burn Mechanism
 
-### Burn = Tăng Scarcity
+### Burn = Increased Scarcity
 
-Sau 3 tháng, tất cả gói Node **chưa bán** sẽ bị đốt hoàn toàn:
+After 3 months, all **unsold** Node packages will be completely burned:
 
 ```
-Ví dụ: Nếu chỉ bán được 1,800 / 2,300 gói:
+Example: If only 1,800 / 2,300 packages are sold:
 
-Gói chưa bán: 500 gói
-Token tương ứng: ~2,000,000 $X18 (ước tính)
+Unsold packages: 500
+Equivalent Tokens: ~2,000,000 $X18 (estimated)
          │
          ▼
-🔥 BURN vĩnh viễn — Token không bao giờ tồn tại
+🔥 Permanently BURNED — Tokens will never exist
          │
          ▼
-Total Supply giảm từ 18,000,000 → ~16,000,000
+Total Supply decreases from 18,000,000 → ~16,000,000
          │
          ▼
-💎 Scarcity tăng → Giá trị token tăng cho holders
+💎 Scarcity increases → Token value rises for holders
 ```
 
-> **Cam kết**: Không có cơ chế nào để mint lại những token đã burn. Smart contract đảm bảo tính bất biến.
+> **Commitment**: There is no mechanism to mint burned tokens again. The smart contract ensures immutability.
 
 ---
 
-## Tại Sao Nên Mua Node Sớm?
+## Why Buy Nodes Early?
 
-### 1. Giá Tham Chiếu $1
-Giá ước tính $X18 tại giai đoạn bán Node là **$1.00/token**. Khi nền tảng mainnet launch và volume tăng, giá token sẽ được xác định bởi thị trường — tiềm năng upside đáng kể.
+### 1. Reference Price $1
+The estimated $X18 price during the Node sale phase is **$1.00/token**. When the mainnet platform launches and volume increases, the token price will be market-determined — significant upside potential.
 
 ### 2. Mining Rewards
-Node holders bắt đầu earn $X18 **ngay lập tức** thông qua mining, trước khi DEX mainnet ra mắt.
+Node holders start earning $X18 **immediately** through mining, before the DEX mainnet launch.
 
 ### 3. Early Adopter Benefits
-Quyền lợi V1/V2/V3 là **vĩnh viễn** — fee discounts, AI access, và governance power không mất đi sau chương trình.
+V1/V2/V3 benefits are **permanent** — fee discounts, AI access, and governance power do not expire after the program.
 
 ### 4. Burn Scarcity
-Node chưa bán bị burn → supply thực tế thấp hơn 18M → favorable cho holders.
+Unsold Nodes are burned → actual supply lower than 18M → favorable for holders.
 
 ---
 
-## Lưu Ý Quan Trọng
+## Important Notes
 
 > ⚠️ **Disclaimer**
-> - Cộng thêm % khi mua là quyền lợi người dùng nhận thêm % token khi mua gói
-> - Toàn bộ $X18 Token khi mua gói ban đầu sẽ bị **LOCK** và chỉ trả % mỗi tháng
-> - Số lượng các gói là **hữu hạn**, không phải vô hạn
-> - Số lượng gói có bộ đếm để xem còn bao nhiêu gói tương ứng
-> - Nếu không bán hết trong 3 tháng, token tương ứng sẽ **đốt hoàn toàn**
-> - Node sẽ dừng hoạt động sau kỳ hạn và không có gói nào phát sinh thêm
+> - Additional % upon purchase is a user benefit of receiving extra % tokens when buying a package
+> - All $X18 Tokens purchased in the initial package will be **LOCKED** and only released monthly
+> - The number of packages is **finite**, not infinite
+> - Package quantities have a counter to show how many are left
+> - If not sold out within 3 months, corresponding tokens will be **completely burned**
+> - Nodes will cease operation after the term, and no additional packages will be issued
 
 ---
 
-> **Tiếp theo:** [Deflationary Mechanics →](deflationary.md)
+> **Next:** [Deflationary Mechanics →](deflationary.md)

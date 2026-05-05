@@ -1,12 +1,12 @@
 # Smart Aggregation
 
-## Tìm Giá Tốt Nhất Trên Mọi Chain, Mọi Nguồn
+## Find the Best Price Across All Chains, All Sources
 
-X18 Route là engine aggregation quét **200+ liquidity sources** trên **10+ chains** để đảm bảo người dùng luôn nhận được giá tốt nhất có thể.
+X18 Route is an aggregation engine that scans **200+ liquidity sources** across **10+ chains** to ensure users always receive the best possible price.
 
 ---
 
-## So Sánh Với Đối Thủ
+## Comparison with Competitors
 
 | Feature | 1inch | Jupiter | X18ex |
 |:---|:---:|:---:|:---:|
@@ -23,7 +23,7 @@ X18 Route là engine aggregation quét **200+ liquidity sources** trên **10+ ch
 ## Liquidity Sources
 
 ### DEX Protocols
-Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome, Aerodrome, Raydium, Orca, và 190+ protocols khác.
+Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome, Aerodrome, Raydium, Orca, and 190+ other protocols.
 
 ### Private Liquidity
 - Professional market makers (RFQ system)
@@ -31,7 +31,7 @@ Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome
 - X18 native pools
 
 ### Cross-chain Sources
-- Tất cả DEX trên mọi supported chain
+- All DEXs on every supported chain
 - Bridge liquidity pools
 - Resolver network fill capacity
 
@@ -56,10 +56,10 @@ Uniswap V2/V3/V4, SushiSwap, Curve, Balancer, PancakeSwap, Trader Joe, Velodrome
 ```
 
 ### Gasless Mode
-- Người dùng KHÔNG cần giữ native token (ETH, BNB) cho gas
-- Gas được trả bởi resolvers, tính vào giá swap
-- Đặc biệt hữu ích cho cross-chain: không cần gas token trên chain đích
+- Users DO NOT need to hold native tokens (ETH, BNB) for gas
+- Gas is paid by resolvers, factored into the swap price
+- Particularly useful for cross-chain: no need for gas tokens on the destination chain
 
 ---
 
-> **Tiếp theo:** [X18 Bot Platform →](bot-platform.md)
+> **Next:** [X18 Bot Platform →](bot-platform.md)

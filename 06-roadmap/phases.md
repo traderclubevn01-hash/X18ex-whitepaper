@@ -1,33 +1,33 @@
 # Development Phases
 
-## Roadmap: Từ Ý Tưởng Đến Hạ Tầng Tài Chính Toàn Cầu
+## Roadmap: From Concept to Global Financial Infrastructure
 
-> 📍 **Trạng thái hiện tại**: Dự án đang ở **Phase 0 — Genesis** (xây dựng nền tảng, gọi vốn, bán Node)
+> 📍 **Current Status**: The project is in **Phase 0 — Genesis** (platform building, fundraising, Node sale)
 
 ---
 
-## Phase 0: Genesis (Q2-Q3 2026) — "Đặt Nền Móng" ← **ĐANG THỰC HIỆN**
+## Phase 0: Genesis (Q2-Q3 2026) — "Laying the Foundation" ← **IN PROGRESS**
 
-### 🎯 Mục tiêu: Xây dựng nền tảng, gọi vốn, và triển khai chương trình bán Node
+### 🎯 Objective: Build the platform, raise funds, and launch the Node sale program
 
-#### ✅ Đã hoàn thành
+#### ✅ Completed
 - [x] Market research & competitive analysis
 - [x] Whitepaper v1.0
-- [x] Thiết kế kiến trúc hệ thống 5 tầng
-- [x] Xây dựng brand identity X18ex
-- [x] Thiết kế tokenomics (18M supply, deflationary model)
+- [x] Design of 5-layer system architecture
+- [x] Development of X18ex brand identity
+- [x] Tokenomics design (18M supply, deflationary model)
 
-#### 🔄 Đang thực hiện
-- [ ] **Chương trình bán Node ban đầu** (3 tháng)
-  - Gói $1K (1,000 gói) — Mining 8%/tháng
-  - Gói $5K (1,000 gói) — Mining 9%/tháng
-  - Gói $10K (300 gói) — Mining 10%/tháng
-- [ ] Gọi vốn — Seed round & strategic investors
-- [ ] Xây dựng nền tảng giao dịch cốt lõi
+#### 🔄 In Progress
+- [ ] **Initial Node Sale Program** (3 months)
+  - $1K Package (1,000 packages) — Mining 8%/month
+  - $5K Package (1,000 packages) — Mining 9%/month
+  - $10K Package (300 packages) — Mining 10%/month
+- [ ] Fundraising — Seed round & strategic investors
+- [ ] Core trading platform development
 - [ ] Core team assembly (15-20 engineers)
 - [ ] Smart contract architecture design
 
-#### ⏳ Sắp triển khai
+#### ⏳ Upcoming
 - [ ] Brand identity & website launch
 - [ ] Community channels (Discord, Telegram, Twitter)
 - [ ] Advisory board formation
@@ -37,22 +37,22 @@
 | Deliverable | Target |
 |:---|:---|
 | Whitepaper published | ✅ Done |
-| Node Sale hoàn tất | Q3 2026 |
+| Node Sale completion | Q3 2026 |
 | Seed funding secured | Q3 2026 |
 | Core team onboarded | Q3 2026 |
-| Node chưa bán → BURN | Sau 3 tháng sale |
+| Unsold Nodes → BURN | After 3-month sale |
 
 ---
 
-## Phase 1: Ignition (Q4 2026 - Q1 2027) — "Khởi Động Engine"
+## Phase 1: Ignition (Q4 2026 - Q1 2027) — "Engine Start"
 
-### 🎯 Mục tiêu: Testnet launch + core trading engine + AI bots prototype
+### 🎯 Objective: Testnet launch + core trading engine + AI bots prototype
 
 - [ ] Hybrid Order Book + AMM engine development
 - [ ] Smart contracts development (Solidity)
 - [ ] Spot trading implementation (ETH, Arbitrum, Base, BSC)
 - [ ] Basic UI/UX — Web trading terminal
-- [ ] **AI Bots v1** — DCA Bot, Grid Bot, Alert Bot tích hợp sàn
+- [ ] **AI Bots v1** — DCA Bot, Grid Bot, Alert Bot integrated with the platform
 - [ ] Bot API v1 (REST)
 - [ ] Wallet integration (MetaMask, WalletConnect, Coinbase)
 - [ ] Security audit #1
@@ -72,9 +72,9 @@
 
 ---
 
-## Phase 2: Fusion (Q2-Q3 2027) — "Hợp Nhất Sức Mạnh"
+## Phase 2: Fusion (Q2-Q3 2027) — "Unifying Strength"
 
-### 🎯 Mục tiêu: Mainnet launch + full trading features + Game alpha
+### 🎯 Objective: Mainnet launch + full trading features + Game alpha
 
 - [ ] **Mainnet launch** 🚀
 - [ ] $X18 Token Generation Event (TGE)
@@ -85,7 +85,7 @@
 - [ ] Risk Guardian v1
 - [ ] MEV Protection Shield
 - [ ] **AI Bots v2** — Sniper, Arbitrage, Copy Trade, Portfolio Guard
-- [ ] Natural Language Trading ("mua ETH nếu giá dưới $2,400")
+- [ ] Natural Language Trading ("buy ETH if price below $2,400")
 - [ ] Bot API v2 (REST + WebSocket)
 - [ ] SDK release: Python, TypeScript
 - [ ] **X18 Game Alpha** — Core gameplay, trading simulation
@@ -107,9 +107,9 @@
 
 ---
 
-## Phase 3: Intelligence (Q4 2027 - Q1 2028) — "Trí Tuệ Thức Tỉnh"
+## Phase 3: Intelligence (Q4 2027 - Q1 2028) — "Awakening Intelligence"
 
-### 🎯 Mục tiêu: Full AI suite + Game launch + ecosystem expansion
+### 🎯 Objective: Full AI suite + Game launch + ecosystem expansion
 
 - [ ] Solana integration (non-EVM)
 - [ ] Polygon, Avalanche, Optimism support
@@ -143,9 +143,9 @@
 
 ---
 
-## Phase 4: Dominion (2028+) — "Xây Dựng Đế Chế"
+## Phase 4: Dominion (2028+) — "Building the Empire"
 
-### 🎯 Mục tiêu: Ecosystem dominance + full decentralization
+### 🎯 Objective: Ecosystem dominance + full decentralization
 
 - [ ] 15+ chains (incl. Aptos, Sui)
 - [ ] Full chain abstraction (chain-agnostic UX)
@@ -181,8 +181,8 @@
 ├── Q2-Q3: GENESIS ◄ NOW   ├── Q2-Q3: FUSION           ├── DOMINION
 │   • Whitepaper ✅         │   • 🚀 MAINNET            │   • 20+ chains
 │   • Node Sale 🔄          │   • TGE                   │   • 1M+ users
-│   • Gọi vốn 🔄            │   • Perp launch           │   • Full DAO
-│   • Xây nền tảng 🔄       │   • AI Bots v2            │   • Game v2
+│   • Fundraising 🔄        │   • Perp launch           │   • Full DAO
+│   • Platform building 🔄  │   • AI Bots v2            │   • Game v2
 │   • Team building 🔄      │   • Game Alpha            │   • RWA
 │                           │   • Cross-chain           │   • Institutional
 ├── Q4: IGNITION            │                           │
@@ -200,14 +200,14 @@
 
 | Phase | Event | Est. $X18 Price |
 |:---|:---|:---|
-| **Phase 0** | Node Sale (hiện tại) | **$1.00** (reference) |
+| **Phase 0** | Node Sale (current) | **$1.00** (reference) |
 | **Phase 1** | Testnet + Community growth | Market-driven |
 | **Phase 2** | TGE + Mainnet launch | Market-driven |
 | **Phase 3** | Full ecosystem | Market-driven |
 | **Phase 4** | Ecosystem dominance | Market-driven |
 
-> **Lưu ý**: Giá $1.00 là giá tham chiếu tại thời điểm bán Node. Giá token sau TGE được xác định hoàn toàn bởi thị trường.
+> **Note**: The $1.00 price is a reference price at the time of Node sale. The token price post-TGE is entirely market-determined.
 
 ---
 
-> **Tiếp theo:** [Milestones Tracker →](milestones.md)
+> **Next:** [Milestones Tracker →](milestones.md)

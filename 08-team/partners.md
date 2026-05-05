@@ -1,6 +1,6 @@
 # Partners & Backers
 
-## Đối Tác Chiến Lược
+## Strategic Partners
 
 ### Technology Partners (Planned)
 - **Chainlink** — Oracle price feeds
@@ -16,8 +16,8 @@
 - Audit firms (Trail of Bits, OpenZeppelin)
 
 ### Investors
-> *Sẽ công bố sau khi hoàn tất seed round.*
+> *To be announced upon completion of the seed round.*
 
 ---
 
-> **Tiếp theo:** [Technical Docs →](../09-resources/technical-docs.md)
+> **Next:** [Technical Docs →](../09-resources/technical-docs.md)
