@@ -1,27 +1,29 @@
-# Core Team
+# The X18ex Organization
 
-## Founding Team
+## The Bitcoin Philosophy: Anonymous, Founderless, Unkillable
 
-> X18ex is built by a team of experienced engineers and product builders from DeFi, AI/ML, and traditional finance.
+> *"Like Bitcoin, X18ex operates without a public face, without a centralized founder, and without a single point of failure. It is an unkillable DeFi empire built by the community, for the community."*
 
-### Team Structure
+The core engineering and quantitative research team behind X18ex is a highly anonymous, globally distributed collective operating primarily out of **Japan, Russia, the USA, and Singapore**. 
 
-| Division | Size | Expertise |
-|:---|:---:|:---|
-| **Smart Contract Engineering** | 5 | Solidity, Rust, auditing, MEV research |
-| **Backend & Infrastructure** | 4 | High-performance systems, distributed computing |
-| **AI/ML Engineering** | 3 | Machine learning, NLP, quantitative modeling |
-| **Frontend & Mobile** | 3 | React, React Native, Web3 UX |
-| **Product & Design** | 2 | Product strategy, UX research |
-| **Business & Operations** | 3 | BD, marketing, community, legal |
+### 3-Year Stealth R&D (2022 - 2025)
+Driven by the absolute ethos that **"Funds in your Web3 wallet can never be confiscated, frozen, or hacked like centralized exchanges,"** the team spent three years in rigorous stealth research and development (2022-2025) to perfect the Hybrid CLOB+AMM architecture.
 
-### Advisors
-- DeFi protocol founders
-- AI/ML researchers
-- Traditional finance executives
-- Legal & compliance experts
+### Built for Elite Volume
+X18ex is designed from day one to serve the world's most demanding traders. The infrastructure has been stress-tested by elite market makers from top exchanges, built to easily handle **$300 Million to $1 Billion+ in daily trading volume**, matching CEX performance entirely on-chain.
 
-> *Team details will be announced as the project moves to Phase 1.*
+## Core Divisions
+
+While anonymous, the operational structure is highly organized and specialized:
+
+| Division | Expertise & Focus |
+|:---|:---|
+| **Protocol & Cryptography (Russia/USA)** | Smart Contracts, ZK-Proofs, Ring Signatures, MEV Shielding |
+| **High-Frequency Engine (Singapore)** | CLOB Matching Engine, AI Routing, Liquidity Aggregation |
+| **Security Architecture (Japan)** | TEE/MPC Infrastructure, Smart Contract Audits, Risk Guardian |
+| **Institutional Liquidity (Global)** | Sourcing $300M-$1B daily volume capabilities, institutional onboarding |
+
+> *There are no public founders to target, no centralized servers to shut down. X18ex is a permanent, unstoppable financial protocol deployed on the BNB Chain.*
 
 ---
 
